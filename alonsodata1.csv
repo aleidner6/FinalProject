@@ -1,0 +1,694 @@
+﻿Game Date,Pitcher,Result,EV (MPH),LA (°),Dist (ft),Direction,Pitch (MPH),Pitch Type
+9/29/19,"Tomlin, Josh",field_out,80,69,,Pull,77.1,Curveball
+9/29/19,"Greene, Shane",field_out,97.2,54,261,Pull,77.5,Slider
+9/29/19,"Soroka, Mike",strikeout,,,,,82.1,Slider
+9/29/19,"Soroka, Mike",strikeout,,,,,84,Slider
+9/29/19,"Soroka, Mike",single,87.4,20,268,Opposite,95.1,Sinker
+9/28/19,"Fried, Max",grounded_into_double_play,80.1,-4,21,Pull,96.6,Sinker
+9/28/19,"Foltynewicz, Mike",home_run,106.1,33,415,Straightaway,92.8,Sinker
+9/28/19,"Foltynewicz, Mike",strikeout,,,,,81.9,Slider
+9/27/19,"Swarzak, Anthony",strikeout,,,,,84.6,Slider
+9/27/19,"Keuchel, Dallas",field_out,68.6,48,190,Opposite,79.7,Changeup
+9/27/19,"Keuchel, Dallas",walk,,,,,90.7,Sinker
+9/27/19,"Keuchel, Dallas",home_run,96.8,24,361,Pull,87,Cutter
+9/26/19,"Brigham, Jeff",strikeout,,,,,84.5,Slider
+9/26/19,"Yamamoto, Jordan",strikeout,,,,,93.4,4-Seam Fastball
+9/26/19,"Yamamoto, Jordan",strikeout,,,,,78,Curveball
+9/26/19,"Yamamoto, Jordan",strikeout,,,,,92.6,4-Seam Fastball
+9/25/19,"Noesi, Hector",walk,,,,,91.9,Slider
+9/25/19,"Smith, Josh D.",field_out,92.8,58,230,Opposite,89.1,4-Seam Fastball
+9/25/19,"Chen, Wei-Yin",field_out,70.9,-4,15,Straightaway,85.4,Changeup
+9/25/19,"Dugger, Robert",home_run,104.7,32,437,Straightaway,89.1,Sinker
+9/25/19,"Dugger, Robert",strikeout,,,,,72.1,Curveball
+9/24/19,"Moran, Brian",strikeout,,,,,71.5,Curveball
+9/24/19,"Garcia, Jarlin",strikeout,,,,,85.7,Slider
+9/24/19,"Alcantara, Sandy",field_out,80,69,,Pull,96.2,Sinker
+9/24/19,"Alcantara, Sandy",field_out,98.4,24,366,Opposite,95.5,Sinker
+9/24/19,"Alcantara, Sandy",field_out,79.1,-16,7,Pull,95.4,Sinker
+9/23/19,"Stanek, Ryne",strikeout,,,,,89.2,Split-Finger
+9/23/19,"Kinley, Tyler",strikeout,,,,,89.8,Slider
+9/23/19,"Smith, Caleb",field_out,80,69,,Opposite,86.1,Slider
+9/23/19,"Smith, Caleb",single,106.1,16,254,Pull,86.6,Slider
+9/23/19,"Smith, Caleb",strikeout,,,,,86.1,Slider
+9/22/19,"Romano, Sal",intent_walk,,,,,,
+9/22/19,"Bowman, Matt",field_out,67.4,13,124,Pull,83.5,Split-Finger
+9/22/19,"Bauer, Trevor",strikeout,,,,,80.1,Slider
+9/22/19,"Bauer, Trevor",strikeout,,,,,94.8,4-Seam Fastball
+9/22/19,"Bauer, Trevor",double,110.4,-1,37,Pull,92.6,4-Seam Fastball
+9/21/19,"Kuhnel, Joel",field_out,101.8,0,33,Pull,87.6,Slider
+9/21/19,"DeSclafani, Anthony",strikeout,,,,,85.4,Knuckle Curve
+9/21/19,"DeSclafani, Anthony",field_out,89.9,25,345,Straightaway,87.9,Slider
+9/21/19,"DeSclafani, Anthony",field_out,101.7,-21,5,Pull,94.9,Sinker
+9/20/19,"Mella, Keury",intent_walk,,,,,,
+9/20/19,"Romano, Sal",home_run,108.2,28,437,Straightaway,96.2,Sinker
+9/20/19,"Castillo, Luis",strikeout,,,,,88.8,Slider
+9/20/19,"Castillo, Luis",field_out,103.9,1,54,Pull,88.2,Changeup
+9/20/19,"Castillo, Luis",field_out,99.7,-9,11,Pull,99.7,Sinker
+9/18/19,"Harvey, Joe",walk,,,,,94,4-Seam Fastball
+9/18/19,"Tinoco, Jesus",single,106.9,12,267,Pull,92.2,Sinker
+9/18/19,"Hoffman, Jeff",home_run,106.1,31,448,Pull,75.6,Curveball
+9/18/19,"Hoffman, Jeff",hit_by_pitch,,,,,76,Curveball
+9/18/19,"Hoffman, Jeff",field_out,73.9,-28,5,Opposite,75.2,Curveball
+9/17/19,"Parsons, Wes",single,57.9,40,179,Opposite,85.8,Slider
+9/17/19,"Melville, Tim",home_run,110.2,33,467,Straightaway,89.6,4-Seam Fastball
+9/17/19,"Melville, Tim",field_out,86.2,-19,7,Pull,89.8,4-Seam Fastball
+9/17/19,"Melville, Tim",grounded_into_double_play,104.1,-16,7,Straightaway,91,4-Seam Fastball
+9/16/19,"Estevez, Carlos",strikeout,,,,,99.5,4-Seam Fastball
+9/16/19,"Senzatela, Antonio",double,110.2,11,279,Opposite,92.2,4-Seam Fastball
+9/16/19,"Senzatela, Antonio",single,107.2,-3,36,Straightaway,92.2,4-Seam Fastball
+9/16/19,"Senzatela, Antonio",strikeout,,,,,79.3,Curveball
+9/15/19,"Jansen, Kenley",strikeout,,,,,94.5,Cutter
+9/15/19,"Baez, Pedro",field_out,85.7,32,301,Opposite,95.9,4-Seam Fastball
+9/15/19,"Buehler, Walker",field_out,98.2,36,354,Straightaway,80.2,Knuckle Curve
+9/15/19,"Buehler, Walker",force_out,75.9,-43,2,Straightaway,82.9,Knuckle Curve
+9/14/19,"Ryu, Hyun Jin",strikeout,,,,,91.2,Sinker
+9/14/19,"Ryu, Hyun Jin",field_out,64.6,80,64,Opposite,89,Cutter
+9/14/19,"Ryu, Hyun Jin",field_out,85.1,3,57,Straightaway,81.2,Changeup
+9/13/19,"Sborz, Josh",walk,,,,,94.9,4-Seam Fastball
+9/13/19,"Kershaw, Clayton",walk,,,,,90.6,4-Seam Fastball
+9/12/19,"Andriese, Matt",field_out,67.2,-60,2,Pull,83.1,Curveball
+9/12/19,"Sherfy, James",strikeout,,,,,78.9,Slider
+9/12/19,"Lopez, Yoan",strikeout,,,,,86.7,Slider
+9/12/19,"Young, Alex",field_error,81.7,-17,4,Straightaway,83.7,Changeup
+9/12/19,"Young, Alex",strikeout,,,,,82.9,Changeup
+9/11/19,"Hirano, Yoshihisa",force_out,82.9,-21,,Pull,83.4,Split-Finger
+9/11/19,"Clarke, Taylor",walk,,,,,94.8,4-Seam Fastball
+9/11/19,"Clarke, Taylor",field_out,80,69,,Opposite,95.3,4-Seam Fastball
+9/11/19,"Ray, Robbie",strikeout,,,,,91.3,4-Seam Fastball
+9/10/19,"Crichton, Stefan",field_out,58.1,-44,3,Opposite,77.1,Curveball
+9/10/19,"Gallen, Zac",strikeout,,,,,91.5,4-Seam Fastball
+9/10/19,"Gallen, Zac",strikeout,,,,,86.5,Changeup
+9/10/19,"Gallen, Zac",strikeout,,,,,93.8,Sinker
+9/9/19,"Crichton, Stefan",strikeout,,,,,92.1,Sinker
+9/9/19,"Kelly, Merrill",home_run,109.5,24,375,Pull,92.5,Sinker
+9/9/19,"Kelly, Merrill",field_out,87.4,-2,29,Opposite,93.8,Sinker
+9/9/19,"Kelly, Merrill",home_run,101.2,29,389,Pull,83.3,Curveball
+9/8/19,"Neris, Hector",strikeout,,,,,89.2,Split-Finger
+9/8/19,"Parker, Blake",field_out,55.1,89,8,Pull,79.6,Split-Finger
+9/8/19,"Alvarez, Jose",single,89.1,14,224,Straightaway,85.3,Changeup
+9/8/19,"Velasquez, Vince",force_out,79.6,3,64,Pull,93.6,4-Seam Fastball
+9/8/19,"Velasquez, Vince",hit_by_pitch,,,,,93.4,4-Seam Fastball
+9/8/19,"Velasquez, Vince",strikeout,,,,,81.1,Knuckle Curve
+9/7/19,"Smyly, Drew",field_out,97.1,21,359,Straightaway,92,4-Seam Fastball
+9/7/19,"Smyly, Drew",field_out,103.2,17,293,Pull,85.8,Cutter
+9/7/19,"Smyly, Drew",single,79.5,1,42,Pull,77,Curveball
+9/7/19,"Smyly, Drew",double,108.6,21,358,Pull,78.4,Curveball
+9/6/19,"Vincent, Nick",walk,,,,,87.7,Cutter
+9/6/19,"Neris, Hector",single,89.5,-1,31,Pull,94.7,Sinker
+9/6/19,"Hughes, Jared",strikeout,,,,,91,Sinker
+9/6/19,"Eflin, Zach",strikeout_double_play,,,,,87.6,Changeup
+9/6/19,"Eflin, Zach",strikeout,,,,,93.9,Sinker
+9/4/19,"Rodney, Fernando",field_out,97.5,-10,13,Pull,95.4,Sinker
+9/4/19,"Strickland, Hunter",field_out,80,69,,Opposite,96.6,4-Seam Fastball
+9/4/19,"Sanchez, Anibal",home_run,106.3,32,408,Pull,86.5,Split-Finger
+9/4/19,"Sanchez, Anibal",field_out,94.3,56,245,Opposite,88.5,Cutter
+9/4/19,"Sanchez, Anibal",field_out,105.3,41,366,Straightaway,84.8,Slider
+9/3/19,"Hudson, Daniel",home_run,110.9,19,427,Straightaway,95.6,4-Seam Fastball
+9/3/19,"Elias, Roenis",single,110.8,15,272,Pull,86.9,Changeup
+9/3/19,"Scherzer, Max",field_out,84.2,30,299,Pull,85.6,Slider
+9/3/19,"Scherzer, Max",single,83.6,15,204,Opposite,87,Slider
+9/3/19,"Scherzer, Max",strikeout,,,,,95.1,4-Seam Fastball
+9/2/19,"Fedde, Erick",strikeout,,,,,89.5,Cutter
+9/2/19,"Voth, Austin",field_out,100.1,16,332,Opposite,80.1,Curveball
+9/2/19,"Ross, Joe",single,75.8,18,197,Pull,94.3,4-Seam Fastball
+9/2/19,"Ross, Joe",field_out,80,69,,Straightaway,92.4,Sinker
+9/2/19,"Ross, Joe",strikeout,,,,,83.3,Curveball
+9/1/19,"Neris, Hector",walk,,,,,95.8,Sinker
+9/1/19,"Eflin, Zach",field_out,93.8,33,357,Pull,94.8,Sinker
+9/1/19,"Eflin, Zach",single,89.9,-7,13,Straightaway,85.6,Changeup
+9/1/19,"Eflin, Zach",home_run,96.5,25,390,Pull,94.1,Sinker
+8/31/19,"Hughes, Jared",field_out,80,24,282,Opposite,91.3,Sinker
+8/31/19,"Parker, Blake",field_out,80,69,,Opposite,92,4-Seam Fastball
+8/31/19,"Vargas, Jason",field_out,106.6,8,150,Pull,78.8,Changeup
+8/31/19,"Vargas, Jason",field_out,96,31,347,Opposite,70.1,Knuckle Curve
+8/31/19,"Vargas, Jason",walk,,,,,86.3,4-Seam Fastball
+8/30/19,"Garcia, Edgar",single,103.9,0,43,Pull,86.7,Slider
+8/30/19,"Morin, Mike",single,90.4,15,,Pull,91.5,Sinker
+8/30/19,"Nola, Aaron",single,68.3,24,217,Straightaway,86.6,Changeup
+8/30/19,"Nola, Aaron",field_out,82.4,30,296,Straightaway,91.8,4-Seam Fastball
+8/30/19,"Nola, Aaron",strikeout,,,,,88.1,Changeup
+8/29/19,"Kintzler, Brandon",field_error,76.7,-55,1,Pull,93.8,Sinker
+8/29/19,"Lester, Jon",field_out,75.4,-18,6,Straightaway,73.9,Curveball
+8/29/19,"Lester, Jon",strikeout,,,,,89.1,4-Seam Fastball
+8/29/19,"Lester, Jon",walk,,,,,91.3,4-Seam Fastball
+8/28/19,"Wick, Rowan",field_out,93.6,38,337,Straightaway,76.9,Knuckle Curve
+8/28/19,"Cishek, Steve",field_out,83.5,76,164,Opposite,90.6,Sinker
+8/28/19,"Hendricks, Kyle",field_out,80,69,,Pull,85.6,Sinker
+8/28/19,"Hendricks, Kyle",field_out,45,1,30,Pull,86.6,Sinker
+8/28/19,"Hendricks, Kyle",hit_by_pitch,,,,,86.7,Sinker
+8/27/19,"Darvish, Yu",field_out,80.5,-5,14,Pull,85.2,Cutter
+8/27/19,"Darvish, Yu",field_out,84.4,30,307,Straightaway,82.1,Cutter
+8/27/19,"Darvish, Yu",home_run,106.5,30,407,Opposite,91.6,4-Seam Fastball
+8/27/19,"Darvish, Yu",field_out,67.8,-15,7,Straightaway,74,Curveball
+8/25/19,"Melancon, Mark",double,83.8,30,308,Pull,92.4,4-Seam Fastball
+8/25/19,"Keuchel, Dallas",strikeout,,,,,87.5,Sinker
+8/25/19,"Keuchel, Dallas",strikeout,,,,,80.3,Changeup
+8/25/19,"Keuchel, Dallas",grounded_into_double_play,86.3,1,53,Pull,85.6,Cutter
+8/24/19,"Martin, Chris",field_out,73.4,-11,7,Pull,85,Slider
+8/24/19,"Fried, Max",home_run,112,20,451,Straightaway,94.2,4-Seam Fastball
+8/24/19,"Fried, Max",field_out,95,27,338,Opposite,94.8,4-Seam Fastball
+8/24/19,"Fried, Max",strikeout,,,,,84.7,Slider
+8/23/19,"Jackson, Luke",strikeout,,,,,97,4-Seam Fastball
+8/23/19,"Newcomb, Sean",strikeout,,,,,81.9,Curveball
+8/23/19,"Martin, Chris",single,113,-6,12,Pull,85.1,Slider
+8/23/19,"Foltynewicz, Mike",field_out,78.1,11,137,Pull,76.9,Curveball
+8/23/19,"Foltynewicz, Mike",field_out,81.2,-7,13,Opposite,94,Sinker
+8/23/19,"Foltynewicz, Mike",strikeout,,,,,95.8,Sinker
+8/22/19,"Civale, Aaron",field_out,80,69,,Straightaway,89.2,Cutter
+8/22/19,"Civale, Aaron",field_out,92.2,34,336,Straightaway,84,Slider
+8/22/19,"Civale, Aaron",hit_by_pitch,,,,,94.9,Sinker
+8/21/19,"Hand, Brad",intent_walk,,,,,,
+8/21/19,"Perez, Oliver",strikeout,,,,,79.2,Slider
+8/21/19,"Plutko, Adam",strikeout,,,,,87.6,Cutter
+8/21/19,"Plutko, Adam",field_out,91,85,15,Pull,90.6,4-Seam Fastball
+8/21/19,"Plutko, Adam",strikeout,,,,,91.3,4-Seam Fastball
+8/20/19,"Wood, Hunter",double,98.6,18,340,Straightaway,94.2,4-Seam Fastball
+8/20/19,"Bieber, Shane",strikeout,,,,,93.2,4-Seam Fastball
+8/20/19,"Bieber, Shane",force_out,101.5,5,88,Pull,85.5,Slider
+8/20/19,"Bieber, Shane",field_out,80,69,,Pull,93,4-Seam Fastball
+8/18/19,"Barnes, Jacob",home_run,110.7,28,418,Pull,93.4,4-Seam Fastball
+8/18/19,"Lovelady, Richard",double,94.5,41,330,Opposite,93.9,4-Seam Fastball
+8/18/19,"Sparkman, Glenn",single,91.9,-4,20,Straightaway,90.8,4-Seam Fastball
+8/18/19,"Sparkman, Glenn",field_out,98.8,-6,20,Pull,92.1,4-Seam Fastball
+8/18/19,"Sparkman, Glenn",intent_walk,,,,,,
+8/17/19,"McCarthy, Kevin",double,111,5,102,Straightaway,88,Slider
+8/17/19,"Hill, Tim",single,75.4,-4,24,Straightaway,90.7,Sinker
+8/17/19,"Junis, Jakob",field_out,89.3,-31,3,Pull,91.6,4-Seam Fastball
+8/17/19,"Junis, Jakob",strikeout,,,,,82.7,Slider
+8/17/19,"Junis, Jakob",single,111.9,9,194,Straightaway,82.8,Slider
+8/16/19,"Barlow, Scott",field_out,89.6,30,316,Opposite,95.2,4-Seam Fastball
+8/16/19,"Montgomery, Mike",walk,,,,,90.7,4-Seam Fastball
+8/16/19,"Montgomery, Mike",fielders_choice,92.5,-15,9,Pull,84.3,Changeup
+8/16/19,"Montgomery, Mike",field_out,82.9,-21,,Pull,85.5,Changeup
+8/15/19,"Jackson, Luke",single,103.6,-11,11,Straightaway,86.8,Slider
+8/15/19,"Swarzak, Anthony",single,96.9,15,286,Pull,92.5,4-Seam Fastball
+8/15/19,"Tomlin, Josh",single,86,8,119,Straightaway,90,4-Seam Fastball
+8/15/19,"Tomlin, Josh",single,111.5,6,121,Pull,87.6,Cutter
+8/15/19,"Teheran, Julio",walk,,,,,90.2,Sinker
+8/15/19,"Teheran, Julio",home_run,110.6,23,451,Straightaway,90,4-Seam Fastball
+8/14/19,"Melancon, Mark",fielders_choice,103.4,-7,16,Straightaway,91.5,Cutter
+8/14/19,"Martin, Chris",field_out,83.9,40,285,Straightaway,86.8,Split-Finger
+8/14/19,"Keuchel, Dallas",hit_by_pitch,,,,,86.1,Cutter
+8/14/19,"Keuchel, Dallas",field_out,81.3,13,174,Straightaway,86.4,Cutter
+8/14/19,"Keuchel, Dallas",field_out,94.8,59,211,Straightaway,79.9,Slider
+8/13/19,"Melancon, Mark",strikeout,,,,,82.7,Knuckle Curve
+8/13/19,"Greene, Shane",single,98.3,14,284,Straightaway,81.6,Slider
+8/13/19,"Fried, Max",field_out,49.6,-39,3,Straightaway,84.9,Slider
+8/13/19,"Fried, Max",field_out,91.5,22,314,Pull,81,Slider
+8/13/19,"Fried, Max",walk,,,,,74.7,Curveball
+8/11/19,"Strickland, Hunter",hit_by_pitch,,,,,95.5,4-Seam Fastball
+8/11/19,"Sanchez, Anibal",single,69.1,11,128,Straightaway,90.7,Sinker
+8/11/19,"Sanchez, Anibal",field_out,80,69,,Opposite,88.1,4-Seam Fastball
+8/11/19,"Sanchez, Anibal",field_out,84.4,44,287,Pull,89,Sinker
+8/10/19,"Hudson, Daniel",intent_walk,,,,,,
+8/10/19,"Corbin, Patrick",strikeout,,,,,92.4,Sinker
+8/10/19,"Corbin, Patrick",strikeout,,,,,94,Sinker
+8/10/19,"Corbin, Patrick",strikeout,,,,,84.4,Slider
+8/9/19,"Hudson, Daniel",field_out,87,-22,6,Straightaway,97.2,4-Seam Fastball
+8/9/19,"Strasburg, Stephen",field_out,64.6,17,153,Straightaway,94.2,Sinker
+8/9/19,"Strasburg, Stephen",home_run,110.3,20,425,Pull,87.2,Changeup
+8/9/19,"Strasburg, Stephen",field_out,75.2,4,65,Straightaway,94.5,Sinker
+8/7/19,"Kinley, Tyler",field_out,46.6,-62,1,Straightaway,93.1,4-Seam Fastball
+8/7/19,"Yamamoto, Jordan",field_out,91.8,42,301,Opposite,86.8,Cutter
+8/7/19,"Yamamoto, Jordan",strikeout,,,,,93.5,4-Seam Fastball
+8/7/19,"Yamamoto, Jordan",home_run,103.8,40,374,Pull,80.5,Changeup
+8/6/19,"Quijada, Jose",strikeout,,,,,94,4-Seam Fastball
+8/6/19,"Noesi, Hector",home_run,107.8,22,367,Pull,87.1,Changeup
+8/6/19,"Noesi, Hector",strikeout,,,,,86.5,Changeup
+8/6/19,"Noesi, Hector",walk,,,,,88.7,Slider
+8/5/19,"Chen, Wei-Yin",strikeout,,,,,93.6,4-Seam Fastball
+8/5/19,"Dugger, Robert",single,105.9,6,122,Straightaway,78.4,Slider
+8/5/19,"Dugger, Robert",strikeout,,,,,80,Slider
+8/5/19,"Dugger, Robert",strikeout,,,,,90.8,4-Seam Fastball
+8/5/19,"Brigham, Jeff",home_run,104.3,25,353,Pull,95,4-Seam Fastball
+8/5/19,"Brigham, Jeff",single,110.2,11,216,Pull,97,4-Seam Fastball
+8/5/19,"Alcantara, Sandy",field_out,93.7,33,343,Straightaway,88.3,Changeup
+8/5/19,"Alcantara, Sandy",hit_by_pitch,,,,,97.4,4-Seam Fastball
+8/3/19,"Stratton, Chris",strikeout,,,,,93.9,4-Seam Fastball
+8/3/19,"Feliz, Michael",strikeout,,,,,82,Slider
+8/3/19,"Archer, Chris",grounded_into_double_play,81.6,-10,18,Pull,94.9,4-Seam Fastball
+8/3/19,"Archer, Chris",double,110.9,-1,37,Pull,90.7,Slider
+8/3/19,"Archer, Chris",strikeout,,,,,89.5,Slider
+8/2/19,"Vazquez, Felipe",strikeout,,,,,98.5,4-Seam Fastball
+8/2/19,"Rodriguez, Richard",single,98.3,3,102,Straightaway,94.5,4-Seam Fastball
+8/2/19,"Williams, Trevor",strikeout,,,,,90.6,4-Seam Fastball
+8/2/19,"Williams, Trevor",walk,,,,,90.8,4-Seam Fastball
+8/2/19,"Williams, Trevor",double,107.7,13,272,Opposite,85.5,Slider
+8/1/19,"Osich, Josh",force_out,73.7,-21,5,Straightaway,91.4,Cutter
+8/1/19,"Cease, Dylan",fielders_choice_out,79.1,6,84,Pull,83.4,Slider
+8/1/19,"Cease, Dylan",strikeout,,,,,97.9,4-Seam Fastball
+8/1/19,"Cease, Dylan",strikeout,,,,,97.4,4-Seam Fastball
+7/31/19,"Cordero, Jimmy",force_out,79.4,10,120,Pull,96.8,Sinker
+7/31/19,"Bummer, Aaron",walk,,,,,97.1,Sinker
+7/31/19,"Giolito, Lucas",strikeout,,,,,84.2,Slider
+7/31/19,"Giolito, Lucas",strikeout,,,,,81.9,Changeup
+7/31/19,"Giolito, Lucas",field_out,90.7,59,209,Opposite,93.9,4-Seam Fastball
+7/30/19,"Osich, Josh",strikeout,,,,,81.8,Slider
+7/30/19,"Bummer, Aaron",single,92.3,10,140,Straightaway,96.1,Sinker
+7/30/19,"Marshall, Evan",field_out,106,-14,6,Pull,88.4,Changeup
+7/30/19,"Lopez, Reynaldo",single,95.2,9,160,Opposite,97,4-Seam Fastball
+7/30/19,"Lopez, Reynaldo",strikeout,,,,,96,4-Seam Fastball
+7/30/19,"Lopez, Reynaldo",walk,,,,,86.8,Changeup
+7/28/19,"Kela, Keone",walk,,,,,95,4-Seam Fastball
+7/28/19,"Liriano, Francisco",force_out,80.6,10,119,Pull,93.5,Sinker
+7/28/19,"Archer, Chris",strikeout,,,,,88,Slider
+7/28/19,"Archer, Chris",field_out,97.8,59,230,Straightaway,94.1,4-Seam Fastball
+7/28/19,"Archer, Chris",walk,,,,,90,Slider
+7/27/19,"Crick, Kyle",strikeout,,,,,83.9,Slider
+7/27/19,"Williams, Trevor",field_out,76.7,78,101,Opposite,91.1,4-Seam Fastball
+7/27/19,"Williams, Trevor",strikeout,,,,,83.4,Slider
+7/27/19,"Williams, Trevor",field_out,80,69,,Pull,92.2,4-Seam Fastball
+7/26/19,"Stratton, Chris",field_out,93.3,42,324,Opposite,92.4,4-Seam Fastball
+7/26/19,"Agrazal, Dario",home_run,106.3,30,416,Straightaway,81.5,Slider
+7/26/19,"Agrazal, Dario",field_out,86.8,-19,10,Straightaway,92.9,Sinker
+7/26/19,"Agrazal, Dario",field_out,77.6,9,117,Straightaway,92.3,Sinker
+7/25/19,"Baez, Michel",hit_by_pitch,,,,,85.8,Changeup
+7/25/19,"Allen, Logan",force_out,77.2,-30,4,Straightaway,77.4,Curveball
+7/25/19,"Perdomo, Luis",field_out,85.8,38,307,Straightaway,86.4,Slider
+7/25/19,"Lauer, Eric",intent_walk,,,,,,
+7/25/19,"Lauer, Eric",single,91.6,2,48,Straightaway,77.2,Curveball
+7/24/19,"Munoz, Andres",walk,,,,,99.7,4-Seam Fastball
+7/24/19,"Strahm, Matt",strikeout,,,,,93,4-Seam Fastball
+7/24/19,"Lamet, Dinelson",strikeout,,,,,95.7,Sinker
+7/24/19,"Lamet, Dinelson",walk,,,,,86.3,Curveball
+7/23/19,"Allen, Logan",walk,,,,,94.1,4-Seam Fastball
+7/23/19,"Paddack, Chris",walk,,,,,95,4-Seam Fastball
+7/23/19,"Paddack, Chris",field_out,71.8,-31,2,Pull,79.1,Curveball
+7/23/19,"Paddack, Chris",walk,,,,,96.5,4-Seam Fastball
+7/21/19,"Melancon, Mark",force_out,104.9,-27,2,Straightaway,82.2,Knuckle Curve
+7/21/19,"Smith, Will",walk,,,,,81,Slider
+7/21/19,"Moronta, Reyes",walk,,,,,96.6,4-Seam Fastball
+7/21/19,"Menez, Conner",strikeout,,,,,91,4-Seam Fastball
+7/21/19,"Menez, Conner",double_play,78.8,38,272,Straightaway,91.7,4-Seam Fastball
+7/20/19,"Holland, Derek",home_run,113,26,444,Straightaway,93.4,Sinker
+7/19/19,"Smith, Will",strikeout,,,,,82.1,Slider
+7/19/19,"Beede, Tyler",strikeout,,,,,94.3,4-Seam Fastball
+7/19/19,"Beede, Tyler",field_out,114.8,2,68,Straightaway,95.3,4-Seam Fastball
+7/19/19,"Beede, Tyler",strikeout,,,,,94.1,4-Seam Fastball
+7/18/19,"Jerez, Williams",home_run,107.2,32,427,Pull,86.2,Changeup
+7/18/19,"Gott, Trevor",field_out,89,30,329,Straightaway,95.2,4-Seam Fastball
+7/18/19,"Moronta, Reyes",field_out,84.2,1,44,Pull,84.6,Slider
+7/18/19,"Bumgarner, Madison",force_out,101,-8,18,Pull,89.4,4-Seam Fastball
+7/18/19,"Bumgarner, Madison",field_out,100.1,38,350,Straightaway,78.1,Curveball
+7/18/19,"Bumgarner, Madison",field_out,103.1,10,170,Pull,85.9,Cutter
+7/18/19,"Bumgarner, Madison",grounded_into_double_play,108.6,1,42,Straightaway,77.3,Curveball
+7/17/19,"Adrianza, Ehire",field_out,92.4,6,91,Pull,59.3,Curveball
+7/17/19,"Magill, Matt",home_run,110.9,30,489,Pull,86.6,Slider
+7/17/19,"May, Trevor",strikeout,,,,,89.4,Changeup
+7/17/19,"Perez, Martin",field_out,99,-12,9,Straightaway,84.7,Changeup
+7/17/19,"Perez, Martin",field_error,66.4,-31,4,Pull,84.6,Changeup
+7/17/19,"Perez, Martin",strikeout,,,,,86.4,Changeup
+7/16/19,"Parker, Blake",walk,,,,,78.9,Split-Finger
+7/16/19,"Pineda, Michael",field_out,112.2,0,49,Pull,84.9,Slider
+7/16/19,"Pineda, Michael",grounded_into_double_play,70.7,-14,8,Straightaway,84.4,Slider
+7/16/19,"Pineda, Michael",strikeout,,,,,85.5,Slider
+7/14/19,"Chen, Wei-Yin",sac_fly,98.2,28,394,Straightaway,73.3,Curveball
+7/14/19,"Alcantara, Sandy",strikeout,,,,,90.8,Changeup
+7/14/19,"Alcantara, Sandy",strikeout,,,,,90.5,Changeup
+7/14/19,"Alcantara, Sandy",hit_by_pitch,,,,,96,Sinker
+7/14/19,"Alcantara, Sandy",field_out,108.7,45,359,Pull,96.9,4-Seam Fastball
+7/13/19,"Quijada, Jose",strikeout,,,,,95.3,4-Seam Fastball
+7/13/19,"Anderson, Nick",field_out,85.6,36,322,Straightaway,95.9,4-Seam Fastball
+7/13/19,"Gallen, Zac",strikeout,,,,,93.4,Sinker
+7/13/19,"Gallen, Zac",single,71.4,24,230,Straightaway,91.2,4-Seam Fastball
+7/13/19,"Gallen, Zac",walk,,,,,92.2,4-Seam Fastball
+7/12/19,"Hernandez, Elieser",strikeout,,,,,92,4-Seam Fastball
+7/12/19,"Smith, Caleb",strikeout,,,,,92.8,4-Seam Fastball
+7/12/19,"Smith, Caleb",walk,,,,,92.7,4-Seam Fastball
+7/12/19,"Smith, Caleb",strikeout,,,,,81.2,Slider
+7/7/19,"Hunter, Tommy",field_out,53.6,13,91,Straightaway,92.4,4-Seam Fastball
+7/7/19,"Nola, Aaron",home_run,100.9,26,396,Opposite,76.9,Knuckle Curve
+7/7/19,"Nola, Aaron",strikeout,,,,,85.1,Changeup
+7/7/19,"Nola, Aaron",field_out,51.4,-50,2,Opposite,79.8,Knuckle Curve
+7/6/19,"Hammer, JD",field_out,76.6,-30,3,Pull,85.3,Slider
+7/6/19,"Suarez, Ranger",field_out,89.1,-8,16,Pull,92.7,4-Seam Fastball
+7/6/19,"Arrieta, Jake",field_out,80,69,,Opposite,86.6,Changeup
+7/6/19,"Arrieta, Jake",single,88.1,-4,28,Pull,93.4,Sinker
+7/6/19,"Arrieta, Jake",hit_by_pitch,,,,,91.2,Sinker
+7/5/19,"Hunter, Tommy",field_out,70.3,32,232,Opposite,90.7,Cutter
+7/5/19,"Velasquez, Vince",double,109.4,13,277,Straightaway,84.7,Slider
+7/5/19,"Velasquez, Vince",home_run,109.6,40,392,Straightaway,93.9,4-Seam Fastball
+7/5/19,"Velasquez, Vince",field_out,80.7,12,162,Straightaway,86.6,Slider
+7/3/19,"Green, Chad",single,76.7,-14,7,Opposite,88.4,Slider
+7/3/19,"German, Domingo",strikeout,,,,,82.5,Curveball
+7/3/19,"German, Domingo",double,104.9,15,279,Pull,94.9,Sinker
+7/3/19,"German, Domingo",field_out,90.6,34,355,Pull,88,Changeup
+7/2/19,"Ottavino, Adam",field_error,68.4,-38,3,Pull,93.8,Sinker
+7/2/19,"Paxton, James",strikeout,,,,,82.4,Knuckle Curve
+7/2/19,"Paxton, James",walk,,,,,89.5,Cutter
+7/2/19,"Paxton, James",field_out,88.2,57,205,Opposite,81.8,Knuckle Curve
+6/30/19,"Minter, A.J.",double,90.1,5,90,Pull,94.1,Cutter
+6/30/19,"Sobotka, Chad",field_out,76.3,50,210,Opposite,86.3,Slider
+6/30/19,"Fried, Max",strikeout,,,,,83.9,Slider
+6/30/19,"Fried, Max",walk,,,,,95.1,4-Seam Fastball
+6/30/19,"Fried, Max",field_out,72.1,9,95,Pull,87.8,Slider
+6/29/19,"Jackson, Luke",field_error,102,-16,8,Opposite,82.6,Curveball
+6/29/19,"Toussaint, Touki",strikeout,,,,,86.9,Split-Finger
+6/29/19,"Teheran, Julio",walk,,,,,90,4-Seam Fastball
+6/29/19,"Teheran, Julio",hit_by_pitch,,,,,87.8,Sinker
+6/29/19,"Teheran, Julio",walk,,,,,83.9,Slider
+6/28/19,"Swarzak, Anthony",field_out,92.3,22,310,Pull,84.9,Slider
+6/28/19,"Soroka, Mike",single,108,0,44,Pull,92.7,Sinker
+6/28/19,"Soroka, Mike",home_run,96.6,41,363,Pull,81.6,Changeup
+6/28/19,"Soroka, Mike",field_out,78.5,-6,16,Straightaway,94.7,Sinker
+6/27/19,"Neris, Hector",field_out,71.3,-20,7,Pull,87.8,Split-Finger
+6/27/19,"Nola, Aaron",force_out,52.2,13,84,Straightaway,85.6,Changeup
+6/27/19,"Nola, Aaron",field_out,84.5,50,253,Opposite,78.5,Knuckle Curve
+6/27/19,"Nola, Aaron",strikeout,,,,,80.3,Knuckle Curve
+6/26/19,"Neris, Hector",strikeout,,,,,94.7,4-Seam Fastball
+6/26/19,"Pivetta, Nick",strikeout,,,,,80.7,Knuckle Curve
+6/26/19,"Pivetta, Nick",single,80.7,18,225,Pull,94.1,4-Seam Fastball
+6/26/19,"Pivetta, Nick",field_out,90.7,43,303,Opposite,81,Knuckle Curve
+6/26/19,"Pivetta, Nick",double,88.3,23,305,Straightaway,92.7,4-Seam Fastball
+6/25/19,"Neris, Hector",field_out,80,69,,Opposite,86.6,Split-Finger
+6/25/19,"Arrieta, Jake",field_out,93.9,23,335,Straightaway,92,Sinker
+6/25/19,"Arrieta, Jake",fielders_choice_out,97.9,-9,10,Pull,88,Changeup
+6/25/19,"Arrieta, Jake",field_out,93.9,33,356,Pull,90.2,Slider
+6/25/19,"Arrieta, Jake",single,84.8,-26,4,Straightaway,93.4,Sinker
+6/24/19,"Hammer, JD",walk,,,,,95.4,4-Seam Fastball
+6/24/19,"Nicasio, Juan",single,86.3,17,240,Opposite,88.4,Slider
+6/24/19,"Eflin, Zach",field_out,82.9,-21,,Pull,91.7,Sinker
+6/24/19,"Eflin, Zach",hit_by_pitch,,,,,93.7,Sinker
+6/24/19,"Eflin, Zach",single,90.3,-17,,Pull,93.9,Sinker
+6/23/19,"Cishek, Steve",walk,,,,,76,Slider
+6/23/19,"Hamels, Cole",walk,,,,,91.6,4-Seam Fastball
+6/23/19,"Hamels, Cole",home_run,110,24,454,Straightaway,83.7,Changeup
+6/23/19,"Hamels, Cole",grounded_into_double_play,90,-8,12,Straightaway,82.8,Changeup
+6/22/19,"Ryan, Kyle",walk,,,,,87.9,Cutter
+6/22/19,"Wick, Rowan",double,112.1,12,340,Straightaway,95.7,4-Seam Fastball
+6/22/19,"Quintana, Jose",field_out,95.3,-16,6,Straightaway,75.8,Curveball
+6/22/19,"Quintana, Jose",field_out,82.9,-21,,Straightaway,76.2,Curveball
+6/22/19,"Quintana, Jose",home_run,108.1,29,419,Straightaway,76.2,Curveball
+6/21/19,"Montgomery, Mike",field_out,65.9,-18,9,Straightaway,84.6,Changeup
+6/21/19,"Darvish, Yu",strikeout,,,,,88.7,Cutter
+6/21/19,"Darvish, Yu",strikeout,,,,,89.6,Split-Finger
+6/21/19,"Darvish, Yu",strikeout,,,,,91.2,Sinker
+6/20/19,"Alzolay, Adbert",strikeout,,,,,86.5,Changeup
+6/20/19,"Alzolay, Adbert",walk,,,,,95.3,4-Seam Fastball
+6/20/19,"Chatwood, Tyler",home_run,117,21,409,Pull,95.3,4-Seam Fastball
+6/20/19,"Chatwood, Tyler",single,103.7,11,226,Straightaway,94.9,Sinker
+6/19/19,"Swarzak, Anthony",field_out,80,69,,Pull,94.4,4-Seam Fastball
+6/19/19,"Fried, Max",strikeout,,,,,97.8,4-Seam Fastball
+6/19/19,"Fried, Max",walk,,,,,88.1,Slider
+6/19/19,"Fried, Max",strikeout,,,,,88,Slider
+6/18/19,"Tomlin, Josh",walk,,,,,90.5,4-Seam Fastball
+6/18/19,"Dayton, Grant",single,108.1,0,57,Pull,90,4-Seam Fastball
+6/18/19,"Toussaint, Touki",walk,,,,,79.6,Curveball
+6/18/19,"Teheran, Julio",home_run,108,33,426,Straightaway,90.2,4-Seam Fastball
+6/18/19,"Teheran, Julio",double,108.4,5,129,Straightaway,82.6,Slider
+6/18/19,"Teheran, Julio",double,113.5,15,383,Straightaway,89.4,Sinker
+6/17/19,"Blevins, Jerry",field_out,102.2,21,362,Straightaway,89.1,4-Seam Fastball
+6/17/19,"Soroka, Mike",field_out,93.6,24,324,Opposite,92.5,Sinker
+6/17/19,"Soroka, Mike",single,100.6,9,143,Pull,94.7,Sinker
+6/17/19,"Soroka, Mike",strikeout,,,,,94,Sinker
+6/16/19,"Martinez, Carlos",field_out,84,52,221,Opposite,93.2,Sinker
+6/16/19,"Hudson, Dakota",single,95.4,19,316,Straightaway,93.1,Sinker
+6/16/19,"Hudson, Dakota",strikeout,,,,,93.4,Sinker
+6/16/19,"Hudson, Dakota",field_out,66.8,15,155,Pull,94.4,4-Seam Fastball
+6/15/19,"Brebbia, John",field_out,98.7,42,335,Straightaway,92.5,4-Seam Fastball
+6/15/19,"Cabrera, Genesis",hit_by_pitch,,,,,96,4-Seam Fastball
+6/15/19,"Wacha, Michael",field_out,86.6,0,45,Opposite,95.4,4-Seam Fastball
+6/15/19,"Wacha, Michael",single,101.6,8,178,Opposite,93.6,4-Seam Fastball
+6/15/19,"Wacha, Michael",home_run,111.8,29,458,Pull,85.1,Changeup
+6/14/19,"Gant, John",double,104,11,213,Straightaway,96.9,Sinker
+6/14/19,"Gant, John",fielders_choice,78.8,9,117,Opposite,96.4,Sinker
+6/14/19,"Brebbia, John",field_out,91.7,49,269,Straightaway,82.9,Slider
+6/14/19,"Ponce de Leon, Daniel",walk,,,,,91.9,4-Seam Fastball
+6/14/19,"Ponce de Leon, Daniel",walk,,,,,95.8,4-Seam Fastball
+6/13/19,"Miller, Andrew",strikeout,,,,,,Slider
+6/13/19,"Flaherty, Jack",double,,,,Pull,,Slider
+6/13/19,"Flaherty, Jack",single,,,,Straightaway,,Sinker
+6/13/19,"Flaherty, Jack",strikeout,,,,,,Sinker
+6/11/19,"Cessa, Luis",field_out,81.1,-2,35,Pull,85.3,Slider
+6/11/19,"Adams, Chance",walk,,,,,81.9,Slider
+6/11/19,"Adams, Chance",strikeout,,,,,82.3,Slider
+6/11/19,"Paxton, James",walk,,,,,79.9,Knuckle Curve
+6/11/19,"Paxton, James",home_run,109.6,20,424,Straightaway,95,4-Seam Fastball
+6/11/19,"Kahnle, Tommy",strikeout,,,,,96.2,4-Seam Fastball
+6/11/19,"Tanaka, Masahiro",field_out,97.9,20,361,Pull,90.9,4-Seam Fastball
+6/11/19,"Tanaka, Masahiro",field_out,85,-5,21,Pull,81.8,Slider
+6/11/19,"Tanaka, Masahiro",strikeout,,,,,82.7,Slider
+6/9/19,"Hoffman, Jeff",strikeout,,,,,77.7,Curveball
+6/9/19,"Hoffman, Jeff",field_out,90.7,0,42,Pull,93.6,4-Seam Fastball
+6/9/19,"Hoffman, Jeff",strikeout,,,,,77.6,Curveball
+6/8/19,"McGee, Jake",home_run,111.5,48,364,Pull,93.8,4-Seam Fastball
+6/8/19,"Gray, Jon",strikeout,,,,,87.6,Slider
+6/8/19,"Gray, Jon",walk,,,,,86.1,Slider
+6/8/19,"Gray, Jon",field_out,94,-27,4,Pull,97.3,4-Seam Fastball
+6/7/19,"Oberg, Scott",field_out,65.1,-5,11,Opposite,85.3,Slider
+6/7/19,"Senzatela, Antonio",field_out,102.3,-10,15,Pull,90.7,4-Seam Fastball
+6/7/19,"Senzatela, Antonio",grounded_into_double_play,106.8,4,97,Straightaway,95.1,4-Seam Fastball
+6/7/19,"Senzatela, Antonio",field_out,95.8,-1,28,Pull,95.1,4-Seam Fastball
+6/6/19,"Melancon, Mark",field_out,80,69,,Pull,90.6,Cutter
+6/6/19,"Melancon, Mark",single,109.7,2,85,Straightaway,91.9,Cutter
+6/6/19,"Anderson, Shaun",field_out,89.2,39,,Straightaway,84.3,Slider
+6/6/19,"Anderson, Shaun",strikeout,,,,,85.6,Changeup
+6/6/19,"Anderson, Shaun",walk,,,,,92.1,Sinker
+6/5/19,"Gott, Trevor",field_out,97.8,44,326,Opposite,95.7,4-Seam Fastball
+6/5/19,"Beede, Tyler",hit_by_pitch,,,,,82.5,Changeup
+6/5/19,"Beede, Tyler",walk,,,,,80.6,Curveball
+6/5/19,"Beede, Tyler",field_out,105.8,40,373,Straightaway,95.6,4-Seam Fastball
+6/4/19,"Holland, Derek",strikeout,,,,,92.1,Sinker
+6/4/19,"Watson, Tony",field_out,79.4,29,287,Pull,86.8,Changeup
+6/4/19,"Bumgarner, Madison",home_run,108.1,26,421,Pull,92.2,4-Seam Fastball
+6/4/19,"Bumgarner, Madison",single,88.2,14,203,Pull,88,Cutter
+6/4/19,"Bumgarner, Madison",hit_by_pitch,,,,,89.6,Cutter
+6/2/19,"Crichton, Stefan",field_out,82,24,291,Straightaway,93.5,Sinker
+6/2/19,"Kelly, Merrill",field_out,86.4,-2,24,Straightaway,93.1,4-Seam Fastball
+6/2/19,"Kelly, Merrill",field_out,83.1,41,280,Opposite,91.2,4-Seam Fastball
+6/2/19,"Kelly, Merrill",force_out,75.5,10,114,Pull,92.1,Sinker
+6/1/19,"Godley, Zack",single,88.8,3,74,Pull,90.3,Sinker
+6/1/19,"Godley, Zack",field_out,98.6,19,367,Straightaway,90.2,Sinker
+6/1/19,"Greinke, Zack",field_out,88.6,45,284,Straightaway,84.1,Slider
+6/1/19,"Greinke, Zack",double,110.5,18,417,Straightaway,86.3,Changeup
+5/31/19,"Holland, Greg",strikeout,,,,,84.4,Slider
+5/31/19,"Bradley, Archie",force_out,84.9,0,40,Pull,96.2,4-Seam Fastball
+5/31/19,"Duplantier, Jon",field_out,100.6,-2,29,Pull,84.4,Slider
+5/31/19,"Duplantier, Jon",single,96.9,7,146,Pull,92.5,Sinker
+5/31/19,"Duplantier, Jon",grounded_into_double_play,98.2,-7,13,Straightaway,93.1,Sinker
+5/30/19,"Jansen, Kenley",hit_by_pitch,,,,,92.6,Sinker
+5/30/19,"Ryu, Hyun Jin",double,114.6,8,190,Pull,84.7,Cutter
+5/30/19,"Ryu, Hyun Jin",field_out,94.5,23,333,Opposite,75.1,Curveball
+5/30/19,"Ryu, Hyun Jin",strikeout,,,,,84.2,Cutter
+5/29/19,"Urias, Julio",single,93.9,12,237,Pull,82.8,Changeup
+5/29/19,"Buehler, Walker",home_run,100,25,368,Pull,92.3,Cutter
+5/29/19,"Buehler, Walker",field_out,105.7,-10,10,Straightaway,98.1,Sinker
+5/29/19,"Buehler, Walker",home_run,106,20,408,Straightaway,97.9,4-Seam Fastball
+5/28/19,"Stripling, Ross",double,113.5,8,176,Pull,84.5,Changeup
+5/28/19,"Hill, Rich",strikeout,,,,,73.9,Curveball
+5/28/19,"Hill, Rich",strikeout,,,,,89.1,4-Seam Fastball
+5/28/19,"Hill, Rich",strikeout,,,,,92.1,4-Seam Fastball
+5/27/19,"Jansen, Kenley",triple,,,,Pull,,
+5/27/19,"Baez, Pedro",field_out,,,,Straightaway,,
+5/27/19,"Kershaw, Clayton",field_out,,,,Pull,,
+5/27/19,"Kershaw, Clayton",field_out,,,,Pull,,
+5/27/19,"Kershaw, Clayton",single,,,,Pull,,
+5/25/19,"Hardy, Blaine",fielders_choice,73.7,-2,33,Pull,80.3,Changeup
+5/25/19,"Ramirez, Nick",strikeout,,,,,77.9,Changeup
+5/25/19,"Carpenter, Ryan",strikeout,,,,,81.7,Slider
+5/25/19,"Carpenter, Ryan",field_out,88.5,23,319,Opposite,91.5,Sinker
+5/24/19,"Alcantara, Victor",field_out,59.6,-87,0,Straightaway,90.1,Slider
+5/24/19,"Reininger, Zac",home_run,105.2,27,401,Pull,93.4,4-Seam Fastball
+5/24/19,"Soto, Gregory",double,105.1,12,211,Pull,91.7,Sinker
+5/24/19,"Soto, Gregory",strikeout,,,,,83.4,Slider
+5/23/19,"Suero, Wander",strikeout,,,,,91.7,Cutter
+5/23/19,"Strasburg, Stephen",sac_fly,98.3,38,357,Straightaway,94.1,4-Seam Fastball
+5/23/19,"Strasburg, Stephen",strikeout,,,,,85.2,Changeup
+5/23/19,"Strasburg, Stephen",strikeout,,,,,93.1,Sinker
+5/22/19,"Barraclough, Kyle",field_out,91.4,-34,6,Pull,92.8,4-Seam Fastball
+5/22/19,"Scherzer, Max",strikeout,,,,,95.4,4-Seam Fastball
+5/22/19,"Scherzer, Max",strikeout,,,,,79.6,Curveball
+5/22/19,"Scherzer, Max",strikeout,,,,,96.8,4-Seam Fastball
+5/21/19,"Rainey, Tanner",home_run,112.2,35,417,Pull,98.9,4-Seam Fastball
+5/21/19,"Suero, Wander",field_out,71,34,250,Opposite,92.2,Cutter
+5/21/19,"Fedde, Erick",hit_by_pitch,,,,,91.4,Sinker
+5/21/19,"Fedde, Erick",field_out,88.4,26,350,Pull,91,Sinker
+5/20/19,"Ross, Joe",hit_by_pitch,,,,,94.6,4-Seam Fastball
+5/20/19,"Corbin, Patrick",field_out,97.2,36,356,Straightaway,89,Sinker
+5/20/19,"Corbin, Patrick",strikeout,,,,,91.7,Sinker
+5/20/19,"Corbin, Patrick",home_run,108.1,31,416,Straightaway,91.7,Sinker
+5/19/19,"Alcantara, Sandy",walk,,,,,95.1,Sinker
+5/19/19,"Alcantara, Sandy",strikeout,,,,,90.9,Changeup
+5/19/19,"Alcantara, Sandy",field_out,61.9,17,132,Pull,95.2,Sinker
+5/18/19,"Lopez, Pablo",field_out,54,21,122,Opposite,93.6,Sinker
+5/18/19,"Lopez, Pablo",field_out,56.2,-18,9,Pull,94.6,Sinker
+5/18/19,"Lopez, Pablo",field_out,92.6,-10,12,Pull,88.5,Changeup
+5/17/19,"Romo, Sergio",field_out,85.9,42,296,Pull,85.8,4-Seam Fastball
+5/17/19,"Anderson, Nick",home_run,104.9,27,419,Pull,95.5,4-Seam Fastball
+5/17/19,"Richards, Trevor",field_out,88.7,48,265,Straightaway,90.9,4-Seam Fastball
+5/17/19,"Richards, Trevor",field_out,92.1,27,326,Opposite,91.3,4-Seam Fastball
+5/17/19,"Richards, Trevor",home_run,105.6,21,417,Straightaway,85.5,Cutter
+5/16/19,"Barraclough, Kyle",field_out,88.3,30,338,Straightaway,93.7,4-Seam Fastball
+5/15/19,"Doolittle, Sean",strikeout,,,,,82.4,Split-Finger
+5/15/19,"Corbin, Patrick",field_out,107.1,-13,9,Straightaway,91.9,4-Seam Fastball
+5/15/19,"Corbin, Patrick",strikeout,,,,,92.2,Sinker
+5/15/19,"Corbin, Patrick",field_out,115,9,181,Pull,89.2,4-Seam Fastball
+5/14/19,"Fedde, Erick",field_out,75.2,82,43,Pull,92.3,Sinker
+5/14/19,"Hellickson, Jeremy",field_out,73.3,40,240,Pull,80,Changeup
+5/14/19,"Hellickson, Jeremy",field_out,46.7,59,91,Opposite,88,Sinker
+5/14/19,"Hellickson, Jeremy",single,70.3,0,30,Straightaway,79,Changeup
+5/11/19,"Chen, Wei-Yin",field_out,85.6,-17,8,Straightaway,81.8,Changeup
+5/11/19,"Alcantara, Sandy",home_run,106.5,34,383,Opposite,85.2,Slider
+5/11/19,"Alcantara, Sandy",field_out,40.3,27,90,Straightaway,94.3,Sinker
+5/11/19,"Alcantara, Sandy",hit_by_pitch,,,,,95.4,Sinker
+5/10/19,"Quijada, Jose",walk,,,,,90.6,4-Seam Fastball
+5/10/19,"Brice, Austin",strikeout,,,,,80.5,Curveball
+5/10/19,"Brice, Austin",strikeout,,,,,92.1,4-Seam Fastball
+5/10/19,"Lopez, Pablo",force_out,102.7,-26,2,Straightaway,94.7,Sinker
+5/10/19,"Lopez, Pablo",walk,,,,,93.6,4-Seam Fastball
+5/8/19,"Yates, Kirby",strikeout,,,,,86.3,Split-Finger
+5/8/19,"Strahm, Matt",field_out,108.2,37,392,Straightaway,80,Curveball
+5/8/19,"Strahm, Matt",strikeout,,,,,91.4,4-Seam Fastball
+5/8/19,"Strahm, Matt",field_out,80.9,27,292,Straightaway,81.1,Curveball
+5/7/19,"Warren, Adam",home_run,114.6,27,462,Pull,91.9,4-Seam Fastball
+5/7/19,"Stammen, Craig",single,107.4,-5,18,Straightaway,92.6,Sinker
+5/7/19,"Quantrill, Cal",force_out,76.6,-25,3,Straightaway,87.6,Slider
+5/7/19,"Quantrill, Cal",field_out,87.5,50,253,Straightaway,95.4,4-Seam Fastball
+5/7/19,"Quantrill, Cal",single,109.5,0,54,Pull,86,Slider
+5/6/19,"Stammen, Craig",strikeout,,,,,92.5,Sinker
+5/6/19,"Paddack, Chris",field_out,81.1,-5,13,Pull,85.4,Changeup
+5/6/19,"Paddack, Chris",strikeout,,,,,97.2,4-Seam Fastball
+5/6/19,"Paddack, Chris",strikeout,,,,,97.9,4-Seam Fastball
+5/5/19,"Hader, Josh",strikeout,,,,,96.9,Sinker
+5/5/19,"Davies, Zach",field_out,93.5,25,377,Straightaway,89.2,Sinker
+5/5/19,"Davies, Zach",field_out,80,69,,Opposite,77.3,Curveball
+5/5/19,"Davies, Zach",field_out,89.1,28,339,Pull,80,Changeup
+5/4/19,"Williams, Taylor",grounded_into_double_play,98.2,-24,6,Straightaway,95.8,Sinker
+5/4/19,"Houser, Adrian",field_out,88.1,-27,3,Straightaway,95.4,4-Seam Fastball
+5/4/19,"Burnes, Corbin",single,113.6,7,149,Pull,96.1,4-Seam Fastball
+5/4/19,"Guerra, Junior",home_run,110.9,21,398,Opposite,81.6,Curveball
+5/4/19,"Albers, Matt",field_out,98.7,-5,23,Pull,90.2,Sinker
+5/4/19,"Gonzalez, Gio",strikeout,,,,,76.3,Curveball
+5/4/19,"Gonzalez, Gio",strikeout,,,,,76.5,Curveball
+5/3/19,"Hader, Josh",strikeout,,,,,97.1,Sinker
+5/3/19,"Woodruff, Brandon",single,67.8,10,109,Opposite,95.4,Sinker
+5/3/19,"Woodruff, Brandon",field_out,82.9,-21,,Straightaway,87.1,Changeup
+5/3/19,"Woodruff, Brandon",strikeout_double_play,,,,,95.8,4-Seam Fastball
+5/2/19,"Duke, Zach",walk,,,,,90.3,Sinker
+5/1/19,"Hughes, Jared",field_out,82.9,-21,,Straightaway,91.9,Sinker
+5/1/19,"DeSclafani, Anthony",strikeout,,,,,92.3,Sinker
+5/1/19,"DeSclafani, Anthony",field_out,68.9,32,235,Pull,95.7,Sinker
+5/1/19,"DeSclafani, Anthony",single,78.4,5,75,Opposite,89.3,Slider
+4/30/19,"Iglesias, Raisel",sac_fly,103.3,36,347,Opposite,95,4-Seam Fastball
+4/30/19,"Stephenson, Robert",strikeout,,,,,83.9,Slider
+4/30/19,"Castillo, Luis",strikeout,,,,,95.6,4-Seam Fastball
+4/30/19,"Castillo, Luis",field_out,82.6,-25,3,Straightaway,97.5,Sinker
+4/30/19,"Castillo, Luis",grounded_into_double_play,76.6,-28,4,Pull,87.1,Changeup
+4/29/19,"Iglesias, Raisel",strikeout,,,,,87.9,Changeup
+4/29/19,"Lorenzen, Michael",single,108,7,154,Pull,93.5,Cutter
+4/29/19,"Roark, Tanner",walk,,,,,92.3,Sinker
+4/29/19,"Roark, Tanner",strikeout,,,,,84.4,Changeup
+4/29/19,"Roark, Tanner",field_out,86.9,6,116,Pull,92,Sinker
+4/28/19,"Wilkerson, Aaron",strikeout,,,,,88.8,4-Seam Fastball
+4/28/19,"Gonzalez, Gio",field_out,83.7,-6,14,Pull,83.1,Changeup
+4/28/19,"Gonzalez, Gio",field_out,64.4,-42,3,Opposite,79.9,Changeup
+4/28/19,"Gonzalez, Gio",triple,102.4,38,360,Pull,91.2,4-Seam Fastball
+4/27/19,"Hader, Josh",strikeout,,,,,95.4,Sinker
+4/27/19,"Claudio, Alex",home_run,100.5,35,384,Pull,72.4,Changeup
+4/27/19,"Woodruff, Brandon",single,106.9,-3,27,Opposite,88.1,Slider
+4/27/19,"Woodruff, Brandon",single,105.5,3,77,Straightaway,97.3,4-Seam Fastball
+4/27/19,"Woodruff, Brandon",field_out,78.1,32,289,Straightaway,87.6,Changeup
+4/26/19,"Petricka, Jake",field_out,69.7,-27,4,Pull,93.2,4-Seam Fastball
+4/26/19,"Barnes, Jacob",strikeout,,,,,90.7,Cutter
+4/26/19,"Anderson, Chase",field_out,72.4,-32,5,Pull,90.4,Cutter
+4/26/19,"Anderson, Chase",walk,,,,,83.8,Changeup
+4/26/19,"Anderson, Chase",strikeout,,,,,95.2,4-Seam Fastball
+4/24/19,"Morgan, Adam",strikeout,,,,,81.8,Slider
+4/23/19,"Anderson, Drew",walk,,,,,90.9,4-Seam Fastball
+4/23/19,"Anderson, Drew",field_out,80,69,,Straightaway,93.4,Sinker
+4/23/19,"Anderson, Drew",field_out,91.3,53,234,Straightaway,93.9,Sinker
+4/23/19,"Eflin, Zach",strikeout,,,,,94.2,4-Seam Fastball
+4/23/19,"Eflin, Zach",field_error,75.7,-16,6,Pull,94.7,Sinker
+4/22/19,"Nicasio, Juan",hit_by_pitch,,,,,91.5,Sinker
+4/22/19,"Arrieta, Jake",field_out,84,-1,26,Straightaway,90.5,Slider
+4/22/19,"Arrieta, Jake",double,98.7,3,89,Opposite,92.1,Sinker
+4/22/19,"Arrieta, Jake",strikeout,,,,,93.1,Sinker
+4/21/19,"Hicks, Jordan",single,75.2,18,220,Straightaway,102.4,Sinker
+4/21/19,"Miller, Andrew",strikeout,,,,,94.4,4-Seam Fastball
+4/21/19,"Hudson, Dakota",field_out,47.3,-33,4,Pull,92.1,Sinker
+4/21/19,"Hudson, Dakota",walk,,,,,93.8,Sinker
+4/21/19,"Hudson, Dakota",home_run,114.5,30,444,Straightaway,88.5,Slider
+4/20/19,"Mikolas, Miles",field_out,91.4,37,316,Opposite,85.7,Slider
+4/20/19,"Mikolas, Miles",field_out,81,-40,3,Pull,76.4,Curveball
+4/20/19,"Mikolas, Miles",field_out,76.7,11,140,Straightaway,93.5,Sinker
+4/20/19,"Mikolas, Miles",field_out,80,69,,Opposite,93.2,Sinker
+4/19/19,"Webb, Tyler",single,116,15,298,Pull,79.3,Changeup
+4/19/19,"Helsley, Ryan",home_run,111.7,17,432,Straightaway,97.2,4-Seam Fastball
+4/19/19,"Wainwright, Adam",walk,,,,,74.8,Curveball
+4/19/19,"Wainwright, Adam",field_error,108.7,-2,31,Straightaway,77,Curveball
+4/19/19,"Wainwright, Adam",field_out,66.3,-28,3,Straightaway,75.9,Curveball
+4/17/19,"Arrieta, Jake",single,108.6,-6,10,Straightaway,87.6,Changeup
+4/17/19,"Arrieta, Jake",strikeout,,,,,87,Changeup
+4/17/19,"Arrieta, Jake",grounded_into_double_play,70.6,-17,4,Straightaway,81.9,Curveball
+4/17/19,"Arrieta, Jake",field_out,72.5,-12,10,Straightaway,94.2,Sinker
+4/16/19,"Eickhoff, Jerad",strikeout,,,,,85.9,Slider
+4/16/19,"Pivetta, Nick",walk,,,,,93.1,4-Seam Fastball
+4/16/19,"Pivetta, Nick",field_out,83.7,-5,23,Pull,93.9,Sinker
+4/16/19,"Pivetta, Nick",hit_by_pitch,,,,,95.1,Sinker
+4/15/19,"Anderson, Drew",strikeout,,,,,75.9,Curveball
+4/15/19,"Alvarez, Jose",field_out,109.9,16,314,Pull,84.3,Slider
+4/15/19,"Nola, Aaron",strikeout,,,,,79,Knuckle Curve
+4/15/19,"Nola, Aaron",walk,,,,,91.4,Sinker
+4/15/19,"Nola, Aaron",single,81.6,22,271,Straightaway,93.6,Sinker
+4/14/19,"Minter, A.J.",strikeout,,,,,95.6,4-Seam Fastball
+4/14/19,"Biddle, Jesse",strikeout,,,,,76.8,Curveball
+4/14/19,"Teheran, Julio",field_out,89.2,39,,Pull,89.8,Sinker
+4/14/19,"Teheran, Julio",field_out,103.8,5,114,Pull,85.4,Changeup
+4/14/19,"Teheran, Julio",single,82.1,-2,24,Straightaway,83.8,Slider
+4/13/19,"Sobotka, Chad",walk,,,,,84.6,Slider
+4/13/19,"Toussaint, Touki",strikeout,,,,,87.1,Split-Finger
+4/13/19,"Toussaint, Touki",field_out,79.2,30,287,Pull,93.3,Sinker
+4/13/19,"Toussaint, Touki",field_out,95.7,30,387,Straightaway,75,Curveball
+4/13/19,"Newcomb, Sean",double,108.3,11,205,Pull,87.5,Changeup
+4/12/19,"Biddle, Jesse",field_out,67.6,49,190,Pull,88.3,Slider
+4/11/19,"Jackson, Luke",single,90.4,18,285,Straightaway,89.4,Slider
+4/11/19,"Venters, Jonny",home_run,118.3,17,454,Straightaway,95.1,Sinker
+4/11/19,"Gausman, Kevin",strikeout,,,,,97.2,4-Seam Fastball
+4/11/19,"Gausman, Kevin",walk,,,,,95.9,4-Seam Fastball
+4/11/19,"Gausman, Kevin",strikeout,,,,,95.4,4-Seam Fastball
+4/10/19,"Perez, Martin",walk,,,,,95.2,4-Seam Fastball
+4/10/19,"Vasquez, Andrew",walk,,,,,78,Curveball
+4/10/19,"Odorizzi, Jake",field_out,102.3,4,88,Pull,74.9,Curveball
+4/10/19,"Odorizzi, Jake",field_out,80,69,,Opposite,77.2,Curveball
+4/9/19,"De Jong, Chase",home_run,106.6,35,397,Opposite,92.7,4-Seam Fastball
+4/9/19,"Mejia, Adalberto",home_run,104.3,37,358,Opposite,93.3,Sinker
+4/9/19,"Gibson, Kyle",field_out,105.3,0,39,Pull,92.6,Sinker
+4/9/19,"Gibson, Kyle",strikeout,,,,,85.4,Slider
+4/9/19,"Gibson, Kyle",strikeout,,,,,86.5,Changeup
+4/7/19,"Ross, Joe",walk,,,,,95.2,4-Seam Fastball
+4/7/19,"Grace, Matt",home_run,104,24,417,Pull,91.6,Sinker
+4/7/19,"Scherzer, Max",double,111.7,7,146,Pull,83.6,Changeup
+4/7/19,"Scherzer, Max",strikeout,,,,,94.9,4-Seam Fastball
+4/7/19,"Scherzer, Max",grounded_into_double_play,82.9,-21,,Straightaway,84.6,Changeup
+4/6/19,"Miller, Justin",home_run,108.7,22,427,Straightaway,85.9,Slider
+4/6/19,"Corbin, Patrick",strikeout,,,,,83.3,Slider
+4/6/19,"Corbin, Patrick",double,112.2,12,258,Pull,81.9,Slider
+4/6/19,"Corbin, Patrick",strikeout,,,,,80.8,Slider
+4/4/19,"Miller, Justin",strikeout,,,,,93.9,4-Seam Fastball
+4/4/19,"Strasburg, Stephen",strikeout,,,,,80.6,Curveball
+4/4/19,"Strasburg, Stephen",field_out,98.3,-15,5,Straightaway,92.9,Sinker
+4/4/19,"Strasburg, Stephen",field_error,38.2,29,81,Straightaway,92,Sinker
+4/3/19,"Anderson, Nick",single,108.8,8,180,Pull,94.7,4-Seam Fastball
+4/3/19,"Richards, Trevor",strikeout,,,,,90.9,4-Seam Fastball
+4/3/19,"Richards, Trevor",double,107.2,20,381,Pull,85.6,Cutter
+4/3/19,"Richards, Trevor",field_out,96.8,37,354,Straightaway,90.8,4-Seam Fastball
+4/2/19,"Chen, Wei-Yin",strikeout,,,,,89.4,4-Seam Fastball
+4/1/19,"Steckenrider, Drew",home_run,112.8,21,444,Straightaway,95.3,4-Seam Fastball
+4/1/19,"Kinley, Tyler",field_out,80,69,,Opposite,93.5,4-Seam Fastball
+4/1/19,"Smith, Caleb",strikeout,,,,,83.6,Changeup
+4/1/19,"Smith, Caleb",field_out,95.1,34,349,Opposite,83.6,Slider
+4/1/19,"Smith, Caleb",strikeout,,,,,84.3,Changeup
+3/31/19,"Doolittle, Sean",field_out,66,-7,11,Straightaway,94.3,4-Seam Fastball
+3/31/19,"Miller, Justin",field_out,104.5,15,325,Opposite,84.8,Slider
+3/31/19,"Corbin, Patrick",walk,,,,,91.1,Sinker
+3/31/19,"Corbin, Patrick",double,110.9,17,371,Pull,81.8,Changeup
+3/31/19,"Corbin, Patrick",single,73.9,33,226,Opposite,92.9,4-Seam Fastball
+3/30/19,"Barraclough, Kyle",double,113.8,15,378,Opposite,93.2,4-Seam Fastball
+3/30/19,"Sipp, Tony",walk,,,,,89.6,4-Seam Fastball
+3/30/19,"Strasburg, Stephen",strikeout,,,,,86.4,Changeup
+3/30/19,"Strasburg, Stephen",double,106.8,17,388,Straightaway,79.4,Curveball
+3/30/19,"Strasburg, Stephen",single,76.1,24,238,Opposite,93.6,Sinker
+3/28/19,"Miller, Justin",single,77.1,21,240,Straightaway,93.5,4-Seam Fastball
+3/28/19,"Scherzer, Max",strikeout,,,,,95.6,4-Seam Fastball
+3/28/19,"Scherzer, Max",field_out,75.1,-15,9,Pull,85.1,Changeup
+3/28/19,"Scherzer, Max",strikeout,,,,,87.7,Cutter
