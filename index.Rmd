@@ -1,0 +1,28 @@
+---
+title: "Final Project"
+description: "Ballard Kauffman Anna Leidner"
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include = FALSE}
+library(tidyverse)     # for data cleaning and plotting
+library(gardenR)       # for Lisa's garden data
+library(lubridate)     # for date manipulation
+library(openintro)     # for the abbr2state() function
+library(patchwork)     # for nicely combining ggplot2 graphs  
+library(gt)            # for creating nice tables
+library(rvest)         # for scraping data
+library(robotstxt)     # for checking if you can scrape data
+library(janitor)       # for cleaning names
+# library(baseballr)
+# library(sportyR)
+# library(pitchRx)
+# library(Lahman)
+
+
+
+```
