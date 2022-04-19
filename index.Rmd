@@ -23,6 +23,10 @@ library(janitor)       # for cleaning names
 # library(pitchRx)
 # library(Lahman)
 
-
-
 ```
+
+Introduction and Background: An introduction that motivates & outlines a clear, specific set of research questions. Also, provide some background on your topic.
+
+Data collection: Specification of your data sources and collection process.
+
+Analysis: This is the bulk of the report which either has a presentation of the group’s key findings and take-aways or gives the detail of how someone would interact and what people should take away from the shiny app. If you choose to do a shiny app, be sure to include a link to the shinyapps.io site.
