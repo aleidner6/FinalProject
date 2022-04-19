@@ -1,6 +1,6 @@
 ---
 title: "Final Project"
-description: "Ballard Kauffman Anna Leidner"
+description: "Ballard Kauffman and Anna Leidner"
 site: distill::distill_website
 ---
 
@@ -23,6 +23,10 @@ library(janitor)       # for cleaning names
 # library(pitchRx)
 # library(Lahman)
 
+
+baseballdata <- read.csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/baseballfinalproject.csv")
+
+#baseball data of hitters from 2015-2022 season. Some important stats to note are woba, xwoba, EV, and LA. If you want to look at other/more stats or for specific players go for it!
 ```
 
 Introduction and Background: An introduction that motivates & outlines a clear, specific set of research questions. Also, provide some background on your topic.
