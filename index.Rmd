@@ -26,10 +26,18 @@ library(janitor)       # for cleaning names
 
 baseballdata <- read.csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/baseballfinalproject.csv")
 
-#baseball data of hitters from 2015-2022 season. Some important stats to note are woba, xwoba, EV, and LA. If you want to look at other/more stats or for specific players go for it!
+#preliminary baseball data of hitters from 2015-2022 season. Some important stats to note are woba, xwoba, EV, and LA. If you want to look at other/more stats or for specific players go for it!
 ```
 
 Introduction and Background: An introduction that motivates & outlines a clear, specific set of research questions. Also, provide some background on your topic.
+
+I'm trying to think of what set of research questions we want to look at? Individual people comparisons? 
+
+Suggestions for how to become a more successful hitter? What makes a hitter a "good" hitter? Do we want to create our own metrics? functions?
+
+Two questions/problems I've run into. 
+1. Are we able to look at every single ball put into play in a given year? 
+2. if we are able to acquire that data, how would we put that into a spray chart? is there data containing x, y values?
 
 Data collection: Specification of your data sources and collection process.
 
