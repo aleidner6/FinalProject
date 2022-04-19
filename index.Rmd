@@ -31,7 +31,7 @@ baseballdata <- read.csv("https://raw.githubusercontent.com/aleidner6/FinalProje
 
 Introduction and Background: An introduction that motivates & outlines a clear, specific set of research questions. Also, provide some background on your topic.
 
-I'm trying to think of what set of research questions we want to look at? Individual people comparisons? 
+I'm trying to think of what set of research questions we want to look at? Individual people comparisons?  
 
 Suggestions for how to become a more successful hitter? What makes a hitter a "good" hitter? Do we want to create our own metrics? functions?
 
