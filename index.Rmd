@@ -137,6 +137,6 @@ baseballdata %>%
 # #grid.arrange(plot1, plot2, ncol = 2)
 # ggsave("baseball.png", arrangeGrob(plot1, plot2))
 ```
-```{r, echo=FALSE}
-knitr::include_graphics("baseball.png")
-```
+# ```{r, echo=FALSE}
+# knitr::include_graphics("baseball.png")
+# ```
