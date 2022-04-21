@@ -18,14 +18,11 @@ library(gt)            # for creating nice tables
 library(rvest)         # for scraping data
 library(robotstxt)     # for checking if you can scrape data
 library(janitor)       # for cleaning names
-<<<<<<< HEAD
 library(baseballr)
 library(sportyR) 
-=======
 library(fmsb)
 # library(baseballr)
 # library(sportyR)
->>>>>>> 5d2f30c69d322b1576be8a4abaddeaf2132aebb2
 # library(pitchRx)
 # library(Lahman)
 
