@@ -96,46 +96,46 @@ baseballdata %>%
 ```
 
 ```{r}
-require(gridExtra)
-
-TeamStats <- read_csv("/Users/annaleidner/Desktop/Data Science/FinalProject/Teams.csv")
-
-hrabTeam <- TeamStats %>%
-  filter(yearID >= 1990 & lgID %in% c("AL", "NL")) %>%
-  select(yearID, lgID, teamID, franchID, divID, Rank, HR, AB, H, SO) %>%
-  group_by(yearID) %>%
-  mutate(teamBA = (H/AB)) %>%
-  mutate(totHR = sum(HR)) %>% #total home run each year
-  mutate(yearBA = mean(teamBA)) %>% #year batting average 
-  mutate(totalK = sum(SO))
-
-#par(mfrow=c(1,2)) 
-
-plot1 <- hrabTeam %>%
-  ggplot(aes(x = yearID, y = totHR)) + #, type = "1", col = 2
-  geom_line() +
-  geom_point() +
-  labs(title = "Home Runs per year since 1990", 
-       y = "Total Number of Home runs by year",
-       x = "Year") +
-  theme(plot.background = element_rect(fill = "thistle2"),
-        text = element_text(family = "Times"))
-
-#par(new = TRUE)
-
-plot2 <- hrabTeam %>%
-  ggplot(aes(x = yearID, y = yearBA)) +
-   # ggplot(aes(x = yearID, y = yearBA, type = "1", col = 3, axes = FALSE, xlab = "", ylab = ""))
-  geom_line() +
-  geom_point() +
-  labs(title = "League Batting Average since 1990", 
-       y = "League Batting Average",
-       x = "Year") +
-  theme(plot.background = element_rect(fill = "thistle2"),
-        text = element_text(family = "Times"))
-
-#grid.arrange(plot1, plot2, ncol = 2)
-ggsave("baseball.png", arrangeGrob(plot1, plot2))
+# require(gridExtra)
+# 
+# TeamStats <- read_csv("/Users/annaleidner/Desktop/Data Science/FinalProject/Teams.csv")
+# 
+# hrabTeam <- TeamStats %>%
+#   filter(yearID >= 1990 & lgID %in% c("AL", "NL")) %>%
+#   select(yearID, lgID, teamID, franchID, divID, Rank, HR, AB, H, SO) %>%
+#   group_by(yearID) %>%
+#   mutate(teamBA = (H/AB)) %>%
+#   mutate(totHR = sum(HR)) %>% #total home run each year
+#   mutate(yearBA = mean(teamBA)) %>% #year batting average 
+#   mutate(totalK = sum(SO))
+# 
+# #par(mfrow=c(1,2)) 
+# 
+# plot1 <- hrabTeam %>%
+#   ggplot(aes(x = yearID, y = totHR)) + #, type = "1", col = 2
+#   geom_line() +
+#   geom_point() +
+#   labs(title = "Home Runs per year since 1990", 
+#        y = "Total Number of Home runs by year",
+#        x = "Year") +
+#   theme(plot.background = element_rect(fill = "thistle2"),
+#         text = element_text(family = "Times"))
+# 
+# #par(new = TRUE)
+# 
+# plot2 <- hrabTeam %>%
+#   ggplot(aes(x = yearID, y = yearBA)) +
+#    # ggplot(aes(x = yearID, y = yearBA, type = "1", col = 3, axes = FALSE, xlab = "", ylab = ""))
+#   geom_line() +
+#   geom_point() +
+#   labs(title = "League Batting Average since 1990", 
+#        y = "League Batting Average",
+#        x = "Year") +
+#   theme(plot.background = element_rect(fill = "thistle2"),
+#         text = element_text(family = "Times"))
+# 
+# #grid.arrange(plot1, plot2, ncol = 2)
+# ggsave("baseball.png", arrangeGrob(plot1, plot2))
 ```
 ```{r, echo=FALSE}
 knitr::include_graphics("baseball.png")
