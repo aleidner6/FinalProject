@@ -19,7 +19,7 @@ library(rvest)         # for scraping data
 library(robotstxt)     # for checking if you can scrape data
 library(janitor)       # for cleaning names
 library(baseballr)
-library(sportyR)
+library(sportyR) 
 # library(pitchRx)
 # library(Lahman)
 
