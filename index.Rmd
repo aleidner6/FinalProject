@@ -18,6 +18,7 @@ library(gt)            # for creating nice tables
 library(rvest)         # for scraping data
 library(robotstxt)     # for checking if you can scrape data
 library(janitor)       # for cleaning names
+library(fmsb)
 # library(baseballr)
 # library(sportyR)
 # library(pitchRx)
