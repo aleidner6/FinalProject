@@ -54,6 +54,7 @@ alonsodata %>%
        x = "Launch Angle", 
        y = "Exit Velocity")
 
+geom_baseball(league = "MLB")
 
 ```
 
