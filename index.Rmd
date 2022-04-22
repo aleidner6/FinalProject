@@ -40,23 +40,17 @@ baseballdata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProje
 
 Introduction and Background: An introduction that motivates & outlines a clear, specific set of research questions. Also, provide some background on your topic.
 
-
-
-I'm trying to think of what set of research questions we want to look at? Individual people comparisons?  
-
-Suggestions for how to become a more successful hitter? What makes a hitter a "good" hitter? Do we want to create our own metrics? functions?
-
-Two questions/problems I've run into. 
-1. Are we able to look at every single ball put into play in a given year? 
-2. if we are able to acquire that data, how would we put that into a spray chart? is there data containing x, y values?
+What makes a "good" baseball hitter? Suggestions for how to become a more successful hitter? What does a well-rounded hitter look like/how do they perform? How do higher average hitters perform in other statistics vs lower average hitters? What predicts a hit? We were planning on looking at individual player comparisons and visualizing their data. We were also considering comparing those individual players we pick out to an average set of data from that year or compare how certain statistics have changed over time. There are a ton of baseball statistics as data analytics have changed the business and strategy of baseball immensely. We wanted to dip our toes into the field of baseball analytics with the tools that we have.
 
 Data collection: Specification of your data sources and collection process.
 
-We found our data from the website, Baseball Savant and used their selection tools to select the statistics that we wanted. From there we either 
+We found some of our data from the website, Baseball Savant and used their selection tools to select different statistics that we wanted. From there, we put the charts provided into CSV files. We also downloaded data from the Lahman baseball database, which includes complete batting and pitching statistics from 1871 to 2021, plus fielding statistics, standings, team stats, managerial records, post-season data, and more.
 
 Analysis: This is the bulk of the report which either has a presentation of the group’s key findings and take-aways or gives the detail of how someone would interact and what people should take away from the shiny app. If you choose to do a shiny app, be sure to include a link to the shinyapps.io site.
 
+We were thinking of doing a blog post, but could potentially do a shiny app with a drop down of certain players in order to compare them. 
 
+#example of specific player data. How do launch angle and velocity predict each type of hit?
 ```{r}
 alonsodata %>%
   # filter(`Result` == c("single", "double", "triple", "home_run")
@@ -72,8 +66,8 @@ alonsodata %>%
 ```
 
 ```{r}
+#I want to create a spray chart with hit locations of specific players' hits. Despite everyone on the internet talking about x and y locations, I have not had any 
 geom_baseball(league = "MLB")
-
 ```
 
 ```{r}
@@ -95,7 +89,7 @@ baseballdata %>%
   ggplot(aes(x = year, 
              y = totavg)) +
   geom_line()
-
 ```
 
-```{r}
+![baseball](/Users/annaleidner/Desktop/Data Science/FinalProject/baseball.png)
+Ballard also hopes to create radar charts to reflect individual players' abilities.
