@@ -124,3 +124,10 @@ baseballdatahr %>%
   geom_line()
 ```
 
+```{r}
+baseballdatahr %>%
+  ggplot(aes(x = launch_angle_avg, 
+             y = woba)) +
+  geom_smooth()
+```
+
