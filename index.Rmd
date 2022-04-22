@@ -33,7 +33,7 @@ alonsodata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject
 
 homerundata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/stats%20(3).csv")
 
-baseballdata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/stats%20(4).csv")
+baseballdatahr <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/stats%20(4).csv")
 
 #preliminary baseball data of hitters from 2015-2022 season. Some important stats to note are woba, xwoba, EV, and LA. If you want to look at other/more stats or for specific players go for it!
 ```
@@ -71,7 +71,7 @@ geom_baseball(league = "MLB")
 ```
 
 ```{r}
-baseballdata %>%
+baseballdatahr %>%
   group_by(year) %>%
   #filter(year == "2021") %>%
   mutate(totavg = mean(batting_avg)) %>%
@@ -81,7 +81,7 @@ baseballdata %>%
   geom_line()
 
 
-baseballdata %>%
+baseballdatahr %>%
   group_by(year) %>%
   #filter(year == "2021") %>%
   mutate(totavg = mean(batting_avg)) %>%
@@ -93,3 +93,34 @@ baseballdata %>%
 
 ![baseball](/Users/annaleidner/Desktop/Data Science/FinalProject/baseball.png)
 Ballard also hopes to create radar charts to reflect individual players' abilities.
+
+
+
+```{r} 
+#pete home run x avg
+baseballdatahr %>%
+  filter(player_id == "624413") %>%
+  ggplot(aes(x = year, 
+             y = b_home_run)) +
+  geom_point()+
+  geom_line()
+```
+
+```{r}
+#of qualified hitters
+baseballdatahr %>%
+  group_by(year) %>%
+  mutate(tothr = sum(b_home_run)) %>%
+  ggplot(aes(x = year, y = tothr)) +
+  geom_point() +
+  geom_line()
+
+#mean batting average of qualified hitters
+baseballdatahr %>%
+  group_by(year) %>%
+  mutate(avgavg = mean(batting_avg)) %>%
+  ggplot(aes(x = year, y = avgavg)) +
+  geom_point() +
+  geom_line()
+```
+
