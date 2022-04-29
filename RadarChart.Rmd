@@ -1,0 +1,219 @@
+---
+title: "RadarChart"
+output: html_document
+---
+
+```{r }
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+library(tidyverse)     # for data cleaning and plotting
+library(dplyr)
+library(gardenR)       # for Lisa's garden data
+library(lubridate)     # for date manipulation
+library(openintro)     # for the abbr2state() function
+library(patchwork)     # for nicely combining ggplot2 graphs  
+library(gt)            # for creating nice tables
+library(rvest)         # for scraping data
+library(robotstxt)     # for checking if you can scrape data
+library(janitor)       # for cleaning names
+library(baseballr)
+library(sportyR) 
+library(fmsb)
+library(scales)
+library(patchwork)
+library(gridExtra)
+library(shiny)
+
+```
+
+
+
+```{r}
+library(fmsb)
+Trey_T <- data.frame(Batting_avg = c(1, 0, .328),
+                     Expected_batting = c(1, 0, .304),
+                     Expected_slugging = c(1, 0, .485),
+                     Expected_obp = c(1, 0, .355),
+                     Expected_xwoba = c(1, 0, .364))
+p1 <- radarchart(Trey_T,
+           seg = 5,
+           plwd = 2,
+           axistype = 5,
+           cglty = 1
+           )
+p2 <- radarchart(Trey_T,
+           seg = 1,
+           plwd = 5,
+           axistype = 5,
+           cglty = 1
+           )
+p1 + p2
+```
+
+## Including Plots
+```{r}
+Full_2021_hitting_stats <- read_csv("https://raw.githubusercontent.com/Ballardk/FinalProject/main/Full_2021_hitting_stats.csv")
+```
+
+You can also embed plots, for example:
+
+```{r}
+Radar_Chart_data <- Full_2021_hitting_stats %>%
+  unite("Name", first_name:last_name,
+        sep = " ") %>% 
+  arrange(desc(batting_avg)) 
+
+ Spider_data <- select(Radar_Chart_data, c(Name, batting_avg , b_total_hits , b_home_run, exit_velocity_avg , barrel_batted_rate, sweet_spot_percent)) %>% 
+add_row(Name = "Mean", batting_avg = 0.2646894 , b_total_hits = 140.447 , b_home_run = 23.2197, exit_velocity_avg = 89.68485	 , barrel_batted_rate = 9.501515, sweet_spot_percent = 34.35076, .before = 1) %>% 
+   
+    add_row(Name = "Max", batting_avg = 0.5 , b_total_hits = 200 , b_home_run = 50, exit_velocity_avg = 100 , barrel_batted_rate = 25, sweet_spot_percent = 40, .before = 1) %>% 
+    add_row(Name = "Min", batting_avg = 0 , b_total_hits = 95 , b_home_run = 0, exit_velocity_avg = 75 , barrel_batted_rate = 0, sweet_spot_percent = 15, .before = 2) %>% 
+   
+rename("Batting Avg" = batting_avg,
+           "Total Hits" = b_total_hits,
+        "Home Runs" = b_home_run ,
+        "Exit Velocity Avg" = exit_velocity_avg,
+        "Barrel Rate" = barrel_batted_rate,
+        "Sweet Spot %" = sweet_spot_percent)
+ 
+ Final_data <- Spider_data %>% 
+   column_to_rownames(var = "Name") 
+Juan_Soto <- Final_data[c("Max", "Min", "Juan Soto", "Mean" ), ]
+
+colors_border = c(rgb(0.2, 0.5, 0.5, 0.9),
+                      rgb(0.8, 0.2, 0.5, 0.9) ,
+                      rgb(0.7, 0.5, 0.1, 0.9))
+    colors_in = c(rgb(0.2, 0.5, 0.5, 0.4),
+                  rgb(0.8, 0.2, 0.5, 0.4) ,
+                  rgb(0.7, 0.5, 0.1, 0.4))
+    
+Soto_Graph <- radarchart(Juan_Soto,
+            pcol = colors_border ,
+      pfcol = colors_in ,
+      plwd = 2 ,
+      plty = 1,
+      cglcol = "grey",
+      cglty = 1,
+      axislabcol = "grey",
+      cglwd = 0.8,
+      vlcex = 0.8,
+           title = "Juan Soto")
+Trea_Turner <- Final_data[c("Max", "Min", "Trea Turner", "Mean"), ]
+
+colors_border = c(rgb(0.2, 0.5, 0.5, 0.9),
+                      rgb(0.8, 0.2, 0.5, 0.9) ,
+                      rgb(0.7, 0.5, 0.1, 0.9))
+    colors_in = c(rgb(0.2, 0.5, 0.5, 0.4),
+                  rgb(0.8, 0.2, 0.5, 0.4) ,
+                  rgb(0.7, 0.5, 0.1, 0.4))
+    
+radarchart(Trea_Turner,
+            pcol = colors_border ,
+      pfcol = colors_in ,
+      plwd = 2 ,
+      plty = 1,
+      cglcol = "grey",
+      cglty = 1,
+      axislabcol = "grey",
+      cglwd = 0.8,
+      vlcex = 0.8,
+           title = "Trea Turner")
+
+Shohei_Ohtani <- Final_data[c("Max", "Min", "Shohei Ohtani" , "Mean"), ]
+      
+    
+    
+    colors_border = c(rgb(0.2, 0.5, 0.5, 0.9),
+                      rgb(0.8, 0.2, 0.5, 0.9) ,
+                      rgb(0.7, 0.5, 0.1, 0.9))
+    colors_in = c(rgb(0.2, 0.5, 0.5, 0.4),
+                  rgb(0.8, 0.2, 0.5, 0.4) ,
+                  rgb(0.7, 0.5, 0.1, 0.4))
+    
+  Shohei_graph =  radarchart(Shohei_Ohtani,
+      pcol = colors_border ,
+      pfcol = colors_in ,
+      plwd = 2 ,
+      plty = 1,
+      cglcol = "grey",
+      cglty = 1,
+      axislabcol = "grey",
+      cglwd = 0.8,
+      vlcex = 0.8,
+      title = "Shohei Othani")
+
+Dansby_Swanson = Final_data[c("Max", "Min", "Dansby Swanson", "Mean"), ]
+
+colors_border = c(rgb(0.2, 0.5, 0.5, 0.9),
+                      rgb(0.8, 0.2, 0.5, 0.9) ,
+                      rgb(0.7, 0.5, 0.1, 0.9))
+    colors_in = c(rgb(0.2, 0.5, 0.5, 0.4),
+                  rgb(0.8, 0.2, 0.5, 0.4) ,
+                  rgb(0.7, 0.5, 0.1, 0.4))
+    
+Dansby_graph <- radarchart(Dansby_Swanson,
+            pcol = colors_border ,
+      pfcol = colors_in ,
+      plwd = 2 ,
+      plty = 1,
+      cglcol = "grey",
+      cglty = 1,
+      axislabcol = "grey",
+      cglwd = 0.8,
+      vlcex = 0.8,
+           title = "Dansby Swanson")
+
+Pete_Alonso = Final_data[c("Max", "Min", "Pete Alonso", "Mean"), ]
+
+colors_border = c(rgb(0.2, 0.5, 0.5, 0.9),
+                      rgb(0.8, 0.2, 0.5, 0.9) ,
+                      rgb(0.7, 0.5, 0.1, 0.9))
+    colors_in = c(rgb(0.2, 0.5, 0.5, 0.4),
+                  rgb(0.8, 0.2, 0.5, 0.4) ,
+                  rgb(0.7, 0.5, 0.1, 0.4))
+    
+Alonso_Graph <- radarchart(Pete_Alonso,
+            pcol = colors_border ,
+      pfcol = colors_in ,
+      plwd = 2 ,
+      plty = 1,
+      cglcol = "grey",
+      cglty = 1,
+      axislabcol = "grey",
+      cglwd = 0.8,
+      vlcex = 0.8,
+      title = "Pete Alonso")
+
+#ggsave("Radarcharts.png", arrangeGrob(Shohei_graph, Alonso_Graph))
+
+```
+
+
+
+```{r}
+BBxHR <- Full_2021_hitting_stats %>% 
+ggplot(aes(x = barrel_batted_rate, y = b_home_run, color = batting_avg))+
+  geom_point()
+LAxEV <- Full_2021_hitting_stats %>% 
+ggplot(aes(x = launch_angle_avg, y = exit_velocity_avg, color = b_home_run))+
+   geom_point()
+LAxEVSingle <- Full_2021_hitting_stats %>%   
+ggplot(aes(x = launch_angle_avg, y = exit_velocity_avg, color = b_single))+
+   geom_point()
+LAxEVDouble <- Full_2021_hitting_stats %>%   
+ggplot(aes(x = launch_angle_avg, y = exit_velocity_avg, color = b_double))+
+   geom_point()
+LAxEVTriple <- Full_2021_hitting_stats %>%   
+ggplot(aes(x = launch_angle_avg, y = exit_velocity_avg, color = b_triple))+
+   geom_point()
+ (LAxEV + LAxEVSingle) / (LAxEVDouble + LAxEVTriple)
+  
+  
+```
