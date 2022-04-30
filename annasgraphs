@@ -1,0 +1,75 @@
+---
+title: "Final Project"
+description: "Ballard Kauffman and Anna Leidner"
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE) 
+```
+
+```{r, include = FALSE}
+library(tidyverse)     # for data cleaning and plotting
+library(gardenR)       # for Lisa's garden data
+library(lubridate)     # for date manipulation
+library(openintro)     # for the abbr2state() function
+library(patchwork)     # for nicely combining ggplot2 graphs  
+library(gt)            # for creating nice tables
+library(rvest)         # for scraping data
+library(robotstxt)     # for checking if you can scrape data
+library(janitor)       # for cleaning names
+library(baseballr)
+library(sportyR) 
+library(fmsb)
+library(data.table)
+library(Lahman)
+
+
+somedata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/baseballfinalproject.csv")
+
+alonsodata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/alonsodata1.csv") 
+
+homerundata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/stats%20(3).csv")
+
+baseballdatahr <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/stats%20(4).csv")
+
+locationdata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/baseballlocationedited.csv")
+
+topplayers <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/topplayers.csv")
+
+
+
+#preliminary baseball data of hitters from 2015-2022 season. Some important stats to note are woba, xwoba, EV, and LA. If you want to look at other/more stats or for specific players go for it!
+```
+
+```{r}
+scaled <- locationdata %>%
+  #filter(batter == "624413") %>% #alonso
+  #filter(batter == "660271") %>% #shohei
+  #filter(batter == "607208") %>% #trea turner
+  mutate(loc_x = 2.5 * (hc_x - 125.42),
+         loc_y = 2.5 * (198.27 - hc_y)) #%>%
+  #filter(bb_type == "ground_ball")
+
+  geom_baseball(league = "MLB") +
+  geom_point(data = scaled,
+             aes(x = loc_x,
+                 y = loc_y, 
+                 color = events))  +
+    ggtitle("trea turner in play balls 2021")
+  #scale_color_manual(values = c("yellow", "red")) +
+```
+
+```{r}
+alonsodata %>%
+  # filter(`Result` == c("single", "double", "triple", "home_run")
+  # ) %>%
+  #filter(Result == "home_run") %>%
+  ggplot(aes(x = `LA (°)`, 
+             y = `EV (MPH)`, 
+             color = `Result`)) +
+  geom_point() +
+  labs(title = "Home Run launch angle vs exit velocity", 
+       x = "Launch Angle", 
+       y = "Exit Velocity")
+```
