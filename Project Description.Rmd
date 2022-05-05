@@ -1,0 +1,45 @@
+---
+title: "Data Science Final Project: A Shiny App to Evaluate MLB 2021 Hitters"
+author: "Ballard Kauffman and Anna Leidner"
+date: "5/4/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Project Description
+
+**Introduction and background: An introduction that motivates & outlines a clear, specific set of research questions. Also, provide some background on your topic.**
+
+Both of us were interested in looking at sports statistics, and given the long history of baseball statistics, we decided to pick baseball as the sport to look at. Baseball statistics and box scores began as early as 1858 with the development of the box score by Henry Chadwick. Empirical analysis of baseball statistics, or Sabermetrics began in the middle of the 20th century and in 1964, the first sabermetrics book, Percentage Baseball, was published. At first, sabermetrics was dismissed by the baseball community and only slowly gained acceptance. It wasn’t until the 1990s that the Oakland Athletics began to take sabermetrics more seriously, a story portrayed in the 2011 film, Moneyball. Following the releases of both the book and movie, both titled Moneyball, the quantitative approach to baseball gained broad exposure. Since then, the analysis of baseball statistics has really taken off as there are dozens of websites with hundreds of different metrics and advanced statistics from the speed of every single pitch thrown to the launch angle and distance of all balls hit in a given season. While a lot of research has been done on more basic statistics: batting average, on base percentage, and runs batted in, we wanted to take advantage of the advanced Statcast and Baseball Savant statistics available to us now. 
+
+We decided to look at top hitters in the MLB and analyzed the location of outcomes of the hit: field out, single, double, triple, and home run. Some questions that we looked at:
+	
+**How can hit location on a spray chart be used in tandem with statistics like home runs, total hits, batting average, and advanced statistics like exit velocity, sweet spot % and barrel rate? to describe a hitter?**
+
+How do hitting metrics such as launch angle and exit velocity affect the outcome of any given hit? 
+What metrics are reflective of a "good hitter"?
+How do the groupings of hits on the spray chart differ from player based on their LA and EV?
+How can a spray chart and radar chart be used together to describe a player?
+
+**Data collection: Specification of your data sources and collection process.**
+
+We used baseballsavant.mlb.com for the majority of our data. Some of our data from baseballsavant was directly downloadable as a CSV file, while others were scraped from the website and put into an excel file. We also downloaded multiple baseball packages in R, including sportyR and Lahman. SportyR generated a ggplot of a regulation MLB field for spray chart creation, while Lahman’s database contains complete batting and pitching statistics from 1871 to 2021, in addition to fielding statistics, yearly league standings, full team statistics, manager records, and postseason data. The FMSB library was also used to create the radar charts. 
+
+**Analysis and User's Manual: This is the bulk of the report which either has a presentation of the group’s key findings and take-aways or gives the detail of how someone would interact and what people should take away from the shiny app. If you choose to do a shiny app, be sure to include a link to the shinyapps.io site.**
+
+Our Shiny App first has an input selector in which the user picks a name of a 2021 Baseball Hitter from a dropdown menu of about 20 players. The user then clicks the button that says: "Create my plots!" 
+
+On the left, a spray chart will appear of all of the hits that the player had in 2021. Each type of hit: Single, Double, Triple, Home Run, and Out are color coded. On the right, a radar chart will appear of the selected player. The red shape represents the average/mean values of the top 150 hitters of 2021.     
+
+Exit Velocity is how fast, in MPH, a ball was hit by a batter. Sweet Spot %, the "sweet spot" is a batted hit that left the bat at a launch angle between 8 and 32 degrees, so the Sweet spot % is how often the player produces a batted ball with a launch angle between 8 and 32 degrees. A barrel is a batted ball with an ideal launch angle and exit velocity that have statistically led to at least a.500 batting average and a 1.500 slugging percentage. A barreled ball requires an exit velocity of at least 98mph and a launch angle of 26-30 degrees. Barrel rate is a strong predictive power metric and has a high correlation with home runs. 
+  
+The app might be best suited for people who have some background in baseball and baseball statistics, but can be used by anyone. One clear example is in a comparison of Shohei Ohtani (2021 MVP and #2 on the Home Run list) and Trea Turner (2021 Batting Average Champ). Ohtani is a lefty power pull hitter, which is evident on the spray chart. Most of his hits are on the right side of the field and he has many triples and home runs. When we look over at the radar chart, we see that his number of home runs exceeds the average of the top 150 players, as well as his exit velocity and barrel rate (rate of balls hit at an optimal launch angle and EV). These charts all reflect that Ohtani is a left-handed power hitter. He can be most starkly contrasted with Trea Turner who was the 2021 Batting Champ, meaning he gets lots of hits at many different locations, but likely doesn't hit for as much power. Upon looking at the spray chart, we can see that Turner has many singles and doubles with some home runs. Additionally, his hits are more spread out that Ohtani's. This is reflected in the radar chart to the right. Turner's EV and Barrel Rate are about the average for "good hitters", but his batting average is above average and his total hits are well above average, likely league leading. Together, these graphs are able to show the distinct differences between two different types of Elite MLB hitters.
+
+
+[Shiny App](https://aleid6.shinyapps.io/BaseballApp/?_ga=2.2849264.1795623829.1651697282-1520753517.1648581154)
+
+
+
