@@ -1,14 +1,15 @@
-#anna's app
 library(shiny)
 library(tidyverse)
 library(sportyR) 
 library(stringr)
 library(rsconnect)
 library(fmsb)
+library(dplyr)
 
 cleanlocationdata <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/cleanlocationdata.csv")
 Full_2021_hitting_stats <- read_csv("https://raw.githubusercontent.com/Ballardk/FinalProject/main/Full_2021_hitting_stats.csv")
 #Final_data <- read_csv("https://raw.githubusercontent.com/aleidner6/FinalProject/main/FinalRadarData.csv")
+
 Radar_Chart_data <- Full_2021_hitting_stats %>%
   unite("Name", first_name:last_name,
         sep = " ") %>% 
@@ -30,26 +31,29 @@ Spider_data <- select(Radar_Chart_data, c(Name, batting_avg , b_total_hits , b_h
 Final_data <- Spider_data %>% 
   column_to_rownames(var = "Name") 
 
-
   
 ui <- fluidPage(
-  selectInput(inputId = "Batter", 
-             label = "Select a Player to View Stats:", 
-             choices = cleanlocationdata %>%
-               arrange(player_name) %>%
-               distinct(player_name) %>%
-               pull(player_name),
-             multiple = FALSE),
-             # choices = c("Shohei Ohtani" = "Shohei Ohtani", "Trea Turner" = "Trea Turner", 
-             #             "Pete Alonso" = "Pete Alonso", "Juan Soto" = "Juan Soto", 
-             #             "Bryce Harper" = "Bryce Harper", "Dansby Swanson" = "Dansby Swanson")),
+  selectInput(inputId = "Batter",
+             label = "Select a Player to View Stats:",
+  #            choices = cleanlocationdata %>%
+  #              arrange(player_name) %>%
+  #              distinct(player_name) %>%
+  #              pull(player_name),
+  #            multiple = FALSE),
+             choices = c("Shohei Ohtani" = "Shohei Ohtani", "Trea Turner" = "Trea Turner",
+                         "Pete Alonso" = "Pete Alonso", "Juan Soto" = "Juan Soto",
+                         "Adam Duvall" = "Adam Duvall", "Austin Riley" = "Austin Riley", "Brandon Crawford" = "Brandon Crawford",
+                        "Bryce Harper" = "Bryce Harper", "Dansby Swanson" = "Dansby Swanson", 
+                         "Eduardo Escobar" = "Eduardo Escobar", "Fernando Tatis Jr." = "Fernando Tatis Jr.", "Francisco Lindor" = "Francisco Lindor", "Freddie Freeman" = "Freddie Freeman",
+                         "Joey Gallo" = "Joey Gallo", "Jonathan Villar" = "Jonathan Villar", "J.T. Realmuto" =  "J.T. Realmuto", "Miguel Cabrera" = "Miguel Cabrera", 
+                         "Mookie Betts" = "Mookie Betts", "Ozzie Albies" = "Ozzie Albies", "Vladimir Guerrero Jr." = "Vladimir Guerrero Jr.")),
   # textInput("Batter", 
   #           "Batter",
   #           value = ""),
-  selectInput(inputId = "Charts", 
-              label = "Select the Hitting Chart:", 
-              choices = c("", "Spray Chart", "Radar Chart"), 
-              multiple = FALSE),
+  # selectInput(inputId = "Charts", 
+  #             label = "Select the Hitting Chart:", 
+  #             choices = c("", "Spray Chart", "Radar Chart"), 
+  #             multiple = FALSE),
   submitButton(text = "Create my plot!"),
   splitLayout(plotOutput(outputId = "spraychart"), 
               plotOutput(outputId = "radarchart"))
