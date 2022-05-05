@@ -1,3 +1,4 @@
+
 #anna's app
 library(shiny)
 library(tidyverse)
@@ -63,7 +64,7 @@ Shared_Names <- cleanlocationdata %>%
   inner_join(Names_keep, by = c("player_name" = "player_name"))
 
 ui <- dashboardPage(
-  dashboardHeader(title = "Anna and Ballards' Baseball Player Data", titleWidth = 450),
+  dashboardHeader(title = "Anna and Ballard's Baseball Player Data", titleWidth = 450),
   dashboardSidebar(selectInput(inputId = "Batter", 
                                label = "Select a Batter to View Stats:", 
                                choices = Shared_Names %>%
@@ -92,7 +93,7 @@ ui <- dashboardPage(
       title = "Key terms and Definitions",width = 12, hight = 40, background = "blue",
       "Barrel = The perfect combination of exit velocity and launch rate; Breaking Balls = A pitch that does not travel straight; Offspeed Pitch = A pitch thrown slower than a fastball; Fastball = A fast direct pitch;
      Strike zone = the Area above the plate between the batter's chest and knees; Sweet spot = a batted-ball with a launch angle between eight and 32 degrees; Batting avgerage = A players hits/total at bats. ",),
-    box(title = "Data and Sources", width = 12, hight = 25, background = "black", "The majority of our data was collecte from Baseballsavant.mlb.com, with some data coming from the Lahman and sportR libraries.")
+    box(title = "Data and Sources", width = 12, hight = 25, background = "black", "The majority of our data was collected from baseballsavant.mlb.com, with some data coming from the Lahman and sportR libraries.")
   )))
 scaled <- Shared_Names %>%
   #filter(Batter %in% input$player_name) %>%
@@ -109,8 +110,10 @@ server <- function(input, output){
                    filter(player_name == input$Batter),
                  aes(x = x,
                      y = y,
-                     color = events))+
-                 labs(col = "Hit Type")
+                     color = events), 
+                 size = 2) +
+      scale_color_manual(values = c('lightblue', 'darkorchid1', 'black', 'orange', 'yellow')) +
+      labs(col = "Hit Type")
   })
   output$radarchart <- renderPlot({
     Shiny_filter = Final_data[c("Max", "Min", input$Batter , "Mean"), ]
@@ -135,7 +138,7 @@ server <- function(input, output){
                cglwd = 0.8,
                vlcex = 0.8,
                title = input$Batter,
-               sub = "The green shape represents the player data, while ther red shape is the mean of of all hitters in the data set.")
+               sub = "The green shape represents the player data, while the red shape is the mean of of all hitters in the data set.")
     
   })
   output$Pitcher_Chart <- renderPlot({
@@ -182,4 +185,3 @@ server <- function(input, output){
 
 
 shinyApp(ui = ui, server = server)
-
