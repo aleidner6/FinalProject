@@ -15,6 +15,7 @@ Radar_Chart_data <- Full_2021_hitting_stats %>%
         sep = " ") %>% 
   arrange(desc(batting_avg)) 
 
+
 Spider_data <- select(Radar_Chart_data, c(Name, batting_avg , b_total_hits , b_home_run, exit_velocity_avg , barrel_batted_rate, sweet_spot_percent)) %>% 
   add_row(Name = "Mean", batting_avg = 0.2646894 , b_total_hits = 140.447 , b_home_run = 23.2197, exit_velocity_avg = 89.68485	 , barrel_batted_rate = 9.501515, sweet_spot_percent = 34.35076, .before = 1) %>% 
   
@@ -54,7 +55,7 @@ ui <- fluidPage(
   #             label = "Select the Hitting Chart:", 
   #             choices = c("", "Spray Chart", "Radar Chart"), 
   #             multiple = FALSE),
-  submitButton(text = "Create my plot!"),
+  submitButton(text = "Create my plots!"),
   splitLayout(plotOutput(outputId = "spraychart"), 
               plotOutput(outputId = "radarchart"))
   )
@@ -74,7 +75,10 @@ server <- function(input, output){
                    filter(player_name == input$Batter),
                  aes(x = x,
                      y = y,
-                     color = events))
+                     color = events), 
+                 size = 3) +
+      scale_color_manual(values = c('blue', 'purple', 'black', 'orange', 'yellow')) 
+      
   })
   output$radarchart <- renderPlot({
     Shiny_filter = Final_data[c("Max", "Min", input$Batter , "Mean"), ]
